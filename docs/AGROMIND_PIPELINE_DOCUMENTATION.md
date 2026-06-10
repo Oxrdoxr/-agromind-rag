@@ -253,13 +253,16 @@ documents is ~5 cents.
 - Harvest interval → 7 days minimum, never "safe to eat" unverified
 - Child safety → ventilate 24h, lock storage
 
-**Usage in Phase 8:**
-The fine-tuned Gemini model is a cloud model (Vertex AI only). The primary
-agent model is Qwen2.5-7B-Instruct running locally. The tuned model can be
-used for:
-1. Evaluation: compare Qwen baseline vs fine-tuned Gemini on same queries
-2. Demo: use Gemini tuned model for presentation if Qwen output is insufficient
-3. Future: fine-tune Qwen locally using the same training data
+**Purpose in this project — EVALUATION ONLY:**
+The fine-tuned Gemini model is NOT the production agent model.
+The agent runs locally on Qwen2.5-7B-Instruct via Ollama — no cloud cost,
+no API dependency, works offline.
+
+The Gemini tuned model serves three purposes:
+1. Evaluation — compare tone and safety behavior vs Qwen baseline on same queries
+2. Capstone presentation — demonstrates fine-tuning capability as a deliverable
+3. Future work — the training data (agromind_training_v2.jsonl) can fine-tune
+   Qwen locally when time permits, replacing the need for Vertex AI entirely
 
 ---
 
