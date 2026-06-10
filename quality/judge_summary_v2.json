@@ -1,0 +1,40 @@
+{
+  "structured": {
+    "total": 114,
+    "avg": 10.0,
+    "min": 10,
+    "max": 10,
+    "pass_7": 114,
+    "fail": 0
+  },
+  "full": {
+    "total": 114,
+    "avg": 8.97,
+    "min": 7,
+    "max": 10,
+    "pass_7": 114,
+    "fail": 0,
+    "products_score_7": [
+      "PN0004",
+      "PN0005",
+      "PN0007",
+      "PN0008",
+      "PN0011",
+      "PN0014",
+      "PN0031",
+      "PN0037",
+      "PN0041"
+    ],
+    "source_data_issues": {
+      "PN0004": "Keep the structured summary as-is, but correct or remove the contradictory supplementary label text in both prose sections, especially the active ingredient lines ('Chlorothalonil 30%' and '春雷霉素30%'). Clean the OCR-corrupted Chinese label content to restore trustworthy target-pest and dosage text.",
+      "PN0005": "Correct the active ingredient and chemical-class inconsistency across sections as the highest priority. Then normalize the Chinese dosage formatting and verify the crop-pest rows in the usage table, especially the 'Rice | Sugarcane borer' entry. Keep the rich bilingual prose, but align all factual core fields with a single verified label source.",
+      "PN0007": "Retain the structured summary, but urgently review and correct both prose sections for active ingredient identity and percentage composition. The main retrieval risk is severe cross-section contradiction on formulation chemistry; once ingredient names and ratios are aligned, this will be a high-quality bilingual record.",
+      "PN0008": "Correct the active ingredient identities and percentages across all sections first, then harmonise the product naming and disease terminology so the structured summary, English prose, and Chinese prose describe the same formulation.",
+      "PN0011": "Correct the ORIGINAL PRODUCT DESCRIPTION to use Lambda-cyhalothrin consistently instead of Beta-cyfluthrin, and clean OCR artifacts in the Chinese section to improve consistency and retrieval precision.",
+      "PN0014": "Correct the core chemistry across sections so product name and active ingredients align consistently. Specifically verify whether the true product is bifenthrin-etoxazole, bifenazate-etoxazole, or another combination, then update the structured summary and prose together. Once ingredient identity is fixed, this will be a high-utility bilingual retrieval document.",
+      "PN0031": "Correct the active ingredient translation and normalization across all sections so that the English and structured sections match the Chinese label text '四聚乙醛6%'. Aside from the ingredient inconsistency, retain the current multilingual and detailed format.",
+      "PN0037": "Correct the English product name or the active-ingredient fields so that product naming is aligned across all sections, then clean OCR corruption in the Chinese prose to improve consistency and retrieval quality.",
+      "PN0041": "Keep the PRODUCT SUMMARY as the canonical structured representation, but correct the prose sections for ingredient and formulation consistency. Specifically verify whether the 9.4% pyrethroid is Lambda-cyhalothrin or Beta-cyfluthrin, and whether the formulation is Suspension Concentrate or Microencapsulated Suspension Concentrate. Clean the Chinese OCR text, especially the dosage and dilution-volume lines, to restore exact values such as 30-50 kg/mu."
+    }
+  }
+}

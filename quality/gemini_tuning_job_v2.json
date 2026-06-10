@@ -1,0 +1,8 @@
+{
+  "job_name": "projects/548742106129/locations/us-central1/tuningJobs/2210300929138229248",
+  "base_model": "gemini-2.5-flash",
+  "training_data": "gs://agromind-ohoud-2026/agromind/training/agromind_training_gemini_v2.jsonl",
+  "examples": 234,
+  "status": "4",
+  "tuned_model_name": "projects/548742106129/locations/us-central1/models/6556995316602634240@1"
+}

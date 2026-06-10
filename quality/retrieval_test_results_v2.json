@@ -1,0 +1,887 @@
+[
+  {
+    "query": "what product treats root rot",
+    "query_type": "disease",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0012",
+      "AF0002"
+    ],
+    "top5_ids": [
+      "AF0024",
+      "AF0012",
+      "AF0016",
+      "AF0041",
+      "AF0028"
+    ],
+    "top5_names": [
+      "Rooting Solution",
+      "Rootline Clear (Microbial Agent)",
+      "Strong Root Growth",
+      "Rootline Clear (Adjuvant)",
+      "Root Explosion 999"
+    ],
+    "top5_distances": [
+      0.809,
+      0.829,
+      0.942,
+      0.983,
+      0.986
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "treatment for downy mildew on vegetables",
+    "query_type": "disease",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0003",
+      "AF0001",
+      "PN0007",
+      "AF0002",
+      "PN0008"
+    ],
+    "top5_ids": [
+      "PN0007",
+      "PN0008",
+      "AF0037",
+      "AF0008",
+      "AF0035"
+    ],
+    "top5_names": [
+      "3% Metalaxyl-M",
+      "30% Metalaxyl-M",
+      "Vegetable Worm Killer",
+      "Cucumber Junliqing",
+      "Carbendazim"
+    ],
+    "top5_distances": [
+      1.103,
+      1.129,
+      1.162,
+      1.177,
+      1.189
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "fungicide for powdery mildew",
+    "query_type": "disease",
+    "collection": "structured",
+    "where_filter": "{'has_diseases': True}",
+    "expected_ids": [
+      "AF0035"
+    ],
+    "top5_ids": [
+      "AF0035",
+      "PN0007",
+      "PN0042",
+      "PN0002",
+      "PN0034"
+    ],
+    "top5_names": [
+      "Carbendazim",
+      "3% Metalaxyl-M",
+      "50% Carbendazim",
+      "Pyrazole Ether Fungicide - Kairun",
+      "1.8% Cyprodinil Acetate"
+    ],
+    "top5_distances": [
+      0.973,
+      0.994,
+      1.01,
+      1.014,
+      1.014
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "anthracnose control product",
+    "query_type": "disease",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0035"
+    ],
+    "top5_ids": [
+      "AF0035",
+      "AF0057",
+      "PN0007",
+      "PN0008",
+      "PN0034"
+    ],
+    "top5_names": [
+      "Carbendazim",
+      "Gray Mold No.1",
+      "3% Metalaxyl-M",
+      "30% Metalaxyl-M",
+      "1.8% Cyprodinil Acetate"
+    ],
+    "top5_distances": [
+      1.058,
+      1.067,
+      1.073,
+      1.079,
+      1.092
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "product to control aphids on vegetables",
+    "query_type": "pest",
+    "collection": "structured",
+    "where_filter": "{'has_pests': True}",
+    "expected_ids": [
+      "PN0001",
+      "AF0058",
+      "AF0064"
+    ],
+    "top5_ids": [
+      "AF0058",
+      "AF0038",
+      "AF0037",
+      "AF0061",
+      "AF0063"
+    ],
+    "top5_names": [
+      "Aphid and Leafhopper No.1",
+      "Aphid and Leafhopper Clear",
+      "Vegetable Worm Killer",
+      "Cabbage Worm Killer",
+      "Caterpillar Killer"
+    ],
+    "top5_distances": [
+      0.796,
+      0.849,
+      0.909,
+      0.953,
+      0.966
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "nematode control microbial agent",
+    "query_type": "pest",
+    "collection": "full",
+    "where_filter": "{'is_microbial': True}",
+    "expected_ids": [
+      "AF0012"
+    ],
+    "top5_ids": [
+      "AF0012",
+      "AF0002",
+      "AF0042",
+      "AF0006",
+      "AF0053"
+    ],
+    "top5_names": [
+      "Rootline Clear (Microbial Agent)",
+      "Allium Bacteria Clear for Onion, Ginger, and Garlic",
+      "Wanjunqing",
+      "Jun Li Qing",
+      "Rapeseed Pathogen Cleaner"
+    ],
+    "top5_distances": [
+      1.033,
+      1.173,
+      1.179,
+      1.207,
+      1.214
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "root-knot nematodes treatment",
+    "query_type": "pest",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0012"
+    ],
+    "top5_ids": [
+      "AF0024",
+      "AF0012",
+      "AF0016",
+      "AF0041",
+      "AF0028"
+    ],
+    "top5_names": [
+      "Rooting Solution",
+      "Rootline Clear (Microbial Agent)",
+      "Strong Root Growth",
+      "Rootline Clear (Adjuvant)",
+      "Root Explosion 999"
+    ],
+    "top5_distances": [
+      1.095,
+      1.133,
+      1.202,
+      1.232,
+      1.255
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "herbicide for weeds in orchards",
+    "query_type": "pest",
+    "collection": "structured",
+    "where_filter": "{'is_pesticide': True}",
+    "expected_ids": [
+      "PN0045"
+    ],
+    "top5_ids": [
+      "PN0035",
+      "PN0045",
+      "PN0036",
+      "PN0010",
+      "PN0022"
+    ],
+    "top5_names": [
+      "Glyphosate Ammonium Salt 33%",
+      "30% Glyphosate Isopropylamine Salt",
+      "10% Quizalofop-P-ethyl Ammonium Salt",
+      "10% Quizalofop-P-ethyl Ammonium Salt",
+      "Aminoclorarsenate Acid"
+    ],
+    "top5_distances": [
+      0.895,
+      0.928,
+      0.955,
+      0.962,
+      0.964
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "Bacillus subtilis product",
+    "query_type": "ingredient",
+    "collection": "structured",
+    "where_filter": "{'is_microbial': True}",
+    "expected_ids": [
+      "AF0001",
+      "AF0012",
+      "AF0003"
+    ],
+    "top5_ids": [
+      "AF0003",
+      "AF0002",
+      "AF0060",
+      "AF0053",
+      "AF0006"
+    ],
+    "top5_names": [
+      "Rice Bacteria Clear",
+      "Allium Bacteria Clear for Onion, Ginger, and Garlic",
+      "Junliqing (3 Billion)",
+      "Rapeseed Pathogen Cleaner",
+      "Jun Li Qing"
+    ],
+    "top5_distances": [
+      1.098,
+      1.125,
+      1.152,
+      1.177,
+      1.193
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "glyphosate herbicide",
+    "query_type": "ingredient",
+    "collection": "structured",
+    "where_filter": "{'is_pesticide': True}",
+    "expected_ids": [
+      "PN0045"
+    ],
+    "top5_ids": [
+      "PN0045",
+      "PN0035",
+      "PN0046",
+      "PN0010",
+      "PN0036"
+    ],
+    "top5_names": [
+      "30% Glyphosate Isopropylamine Salt",
+      "Glyphosate Ammonium Salt 33%",
+      "10% Glufosinate-Ammonium",
+      "10% Quizalofop-P-ethyl Ammonium Salt",
+      "10% Quizalofop-P-ethyl Ammonium Salt"
+    ],
+    "top5_distances": [
+      0.786,
+      0.787,
+      0.929,
+      0.956,
+      0.975
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "Bacillus thuringiensis insecticide",
+    "query_type": "ingredient",
+    "collection": "structured",
+    "where_filter": "{'is_microbial': True}",
+    "expected_ids": [
+      "PN0001",
+      "AF0003"
+    ],
+    "top5_ids": [
+      "AF0003",
+      "AF0052",
+      "AF0002",
+      "AF0060",
+      "AF0064"
+    ],
+    "top5_names": [
+      "Rice Bacteria Clear",
+      "Rice Disease Cleaner",
+      "Allium Bacteria Clear for Onion, Ginger, and Garlic",
+      "Junliqing (3 Billion)",
+      "Thrips No.1"
+    ],
+    "top5_distances": [
+      1.151,
+      1.199,
+      1.2,
+      1.212,
+      1.213
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "product for citrus trees",
+    "query_type": "crop",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0002"
+    ],
+    "top5_ids": [
+      "AF0013",
+      "AF0001",
+      "PN0021",
+      "AF0022",
+      "AF0030"
+    ],
+    "top5_names": [
+      "Water-Soluble Fertilizer Specially for Citrus",
+      "Citrus Junliqing",
+      "18% Limonene",
+      "Fruit Set Retention Enhancer",
+      "Flower Induction and Fruit Setting Agent"
+    ],
+    "top5_distances": [
+      0.808,
+      0.903,
+      1.002,
+      1.037,
+      1.045
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "rice pest control insecticide",
+    "query_type": "crop",
+    "collection": "structured",
+    "where_filter": "{'is_pesticide': True}",
+    "expected_ids": [
+      "PN0001",
+      "PN0049",
+      "PN0033"
+    ],
+    "top5_ids": [
+      "PN0033",
+      "PN0049",
+      "PN0024",
+      "PN0050",
+      "PN0025"
+    ],
+    "top5_names": [
+      "18% Imidacloprid·Thiazopyr",
+      "10% Imidacloprid (Bangsai Ke)",
+      "5% Imidacloprid",
+      "10% Imidacloprid (Dafei No.1)",
+      "10% Imidacloprid"
+    ],
+    "top5_distances": [
+      0.81,
+      0.854,
+      0.867,
+      0.871,
+      0.873
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "citrus leaf yellowing treatment",
+    "query_type": "symptom",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0002"
+    ],
+    "top5_ids": [
+      "AF0001",
+      "AF0013",
+      "AF0029",
+      "PN0013",
+      "PN0021"
+    ],
+    "top5_names": [
+      "Citrus Junliqing",
+      "Water-Soluble Fertilizer Specially for Citrus",
+      "Green Leaf Pioneer",
+      "24% Biphenyl Hydrazide Ester - Meiman Orange Orchard",
+      "18% Limonene"
+    ],
+    "top5_distances": [
+      1.077,
+      1.097,
+      1.192,
+      1.231,
+      1.261
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "plant dwarfing mosaic virus symptoms",
+    "query_type": "symptom",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0056"
+    ],
+    "top5_ids": [
+      "AF0056",
+      "AF0026",
+      "AF0029",
+      "AF0035",
+      "AF0024"
+    ],
+    "top5_names": [
+      "Virus No.1",
+      "Eggplant No.1",
+      "Green Leaf Pioneer",
+      "Carbendazim",
+      "Rooting Solution"
+    ],
+    "top5_distances": [
+      1.249,
+      1.335,
+      1.339,
+      1.38,
+      1.389
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "柑橘叶片发黄怎么处理",
+    "query_type": "chinese",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0002"
+    ],
+    "top5_ids": [
+      "AF0013",
+      "AF0001",
+      "PN0013",
+      "AF0029",
+      "AF0036"
+    ],
+    "top5_names": [
+      "Water-Soluble Fertilizer Specially for Citrus",
+      "Citrus Junliqing",
+      "24% Biphenyl Hydrazide Ester - Meiman Orange Orchard",
+      "Green Leaf Pioneer",
+      "Plant Nutrient Solution"
+    ],
+    "top5_distances": [
+      1.001,
+      1.069,
+      1.137,
+      1.16,
+      1.171
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "根结线虫防治",
+    "query_type": "chinese",
+    "collection": "full",
+    "where_filter": "{'is_microbial': True}",
+    "expected_ids": [
+      "AF0012"
+    ],
+    "top5_ids": [
+      "AF0012",
+      "AF0041",
+      "AF0011",
+      "AF0008",
+      "AF0009"
+    ],
+    "top5_names": [
+      "Rootline Clear (Microbial Agent)",
+      "Rootline Clear (Adjuvant)",
+      "Rapeseed Junliqing",
+      "Cucumber Junliqing",
+      "Bags of Junliqing"
+    ],
+    "top5_distances": [
+      1.05,
+      1.233,
+      1.31,
+      1.318,
+      1.319
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "白粉病杀菌剂",
+    "query_type": "chinese",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0035"
+    ],
+    "top5_ids": [
+      "AF0035",
+      "PN0007",
+      "AF0052",
+      "PN0042",
+      "PN0001"
+    ],
+    "top5_names": [
+      "Carbendazim",
+      "3% Metalaxyl-M",
+      "Rice Disease Cleaner",
+      "50% Carbendazim",
+      "Bacillus thuringiensis 4000 IU/μL"
+    ],
+    "top5_distances": [
+      0.998,
+      1.021,
+      1.025,
+      1.027,
+      1.028
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "草甘膦除草剂",
+    "query_type": "chinese",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "PN0045"
+    ],
+    "top5_ids": [
+      "PN0045",
+      "PN0035",
+      "PN0046",
+      "PN0036",
+      "PN0010"
+    ],
+    "top5_names": [
+      "30% Glyphosate Isopropylamine Salt",
+      "Glyphosate Ammonium Salt 33%",
+      "10% Glufosinate-Ammonium",
+      "10% Quizalofop-P-ethyl Ammonium Salt",
+      "10% Quizalofop-P-ethyl Ammonium Salt"
+    ],
+    "top5_distances": [
+      0.794,
+      0.87,
+      0.885,
+      0.9,
+      0.916
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "Citrus Junliqing product information",
+    "query_type": "product_name",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001"
+    ],
+    "top5_ids": [
+      "AF0001",
+      "AF0060",
+      "AF0006",
+      "AF0009",
+      "AF0005"
+    ],
+    "top5_names": [
+      "Citrus Junliqing",
+      "Junliqing (3 Billion)",
+      "Jun Li Qing",
+      "Bags of Junliqing",
+      "Strawberry Junliqing"
+    ],
+    "top5_distances": [
+      0.684,
+      0.83,
+      0.836,
+      0.905,
+      0.906
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "柑橘菌立清",
+    "query_type": "product_name",
+    "collection": "full",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001"
+    ],
+    "top5_ids": [
+      "AF0001",
+      "AF0008",
+      "AF0007",
+      "AF0009",
+      "AF0006"
+    ],
+    "top5_names": [
+      "Citrus Junliqing",
+      "Cucumber Junliqing",
+      "Chili Bacterial Clear",
+      "Bags of Junliqing",
+      "Jun Li Qing"
+    ],
+    "top5_distances": [
+      0.817,
+      1.026,
+      1.091,
+      1.094,
+      1.111
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "Rootline Clear microbial agent",
+    "query_type": "product_name",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0012"
+    ],
+    "top5_ids": [
+      "AF0012",
+      "AF0041",
+      "AF0003",
+      "AF0048",
+      "AF0002"
+    ],
+    "top5_names": [
+      "Rootline Clear (Microbial Agent)",
+      "Rootline Clear (Adjuvant)",
+      "Rice Bacteria Clear",
+      "Herbicide Ling (Complete Root Removal for Trees, Bamboo, and Grass)",
+      "Allium Bacteria Clear for Onion, Ginger, and Garlic"
+    ],
+    "top5_distances": [
+      0.626,
+      0.751,
+      1.0,
+      1.043,
+      1.059
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "1000 times dilution spray application",
+    "query_type": "dosage",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0003",
+      "AF0001",
+      "PN0007",
+      "AF0002",
+      "PN0008"
+    ],
+    "top5_ids": [
+      "PN0001",
+      "AF0033",
+      "AF0017",
+      "AF0001",
+      "AF0059"
+    ],
+    "top5_names": [
+      "Bacillus thuringiensis 4000 IU/μL",
+      "No-Dilution Nutrient Solution",
+      "One Spray Green",
+      "Citrus Junliqing",
+      "Macronutrient One-Spray Green"
+    ],
+    "top5_distances": [
+      1.006,
+      1.014,
+      1.021,
+      1.025,
+      1.029
+    ],
+    "hit_top1": false,
+    "hit_top3": false,
+    "hit_top5": true
+  },
+  {
+    "query": "no dilution required direct application",
+    "query_type": "dosage",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0033",
+      "AF0035"
+    ],
+    "top5_ids": [
+      "AF0033",
+      "AF0001",
+      "AF0054",
+      "AF0041",
+      "AF0038"
+    ],
+    "top5_names": [
+      "No-Dilution Nutrient Solution",
+      "Citrus Junliqing",
+      "Home Gardening Ready-to-Use Nutrient Solution",
+      "Rootline Clear (Adjuvant)",
+      "Aphid and Leafhopper Clear"
+    ],
+    "top5_distances": [
+      1.051,
+      1.186,
+      1.194,
+      1.202,
+      1.218
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "harvest interval after spraying pesticide vegetables",
+    "query_type": "safety",
+    "collection": "full",
+    "where_filter": "{'is_pesticide': True}",
+    "expected_ids": [
+      "PN0012",
+      "PN0037",
+      "PN0009"
+    ],
+    "top5_ids": [
+      "PN0037",
+      "PN0009",
+      "PN0012",
+      "PN0011",
+      "PN0041"
+    ],
+    "top5_names": [
+      "12% Bifenazate·Spiromesifen",
+      "3.2% Emamectin Benzoate Chlorantraniliprole",
+      "Insect Mite Cyantraniliprole Mite Urea",
+      "Efficient Cyhalothrin 2.5%",
+      "22% Thiamethoxam High Chlorfluazuron"
+    ],
+    "top5_distances": [
+      1.179,
+      1.213,
+      1.214,
+      1.219,
+      1.223
+    ],
+    "hit_top1": true,
+    "hit_top3": true,
+    "hit_top5": true
+  },
+  {
+    "query": "do not mix with alkaline fertilizers warning",
+    "query_type": "safety",
+    "collection": "structured",
+    "where_filter": "None",
+    "expected_ids": [
+      "AF0001",
+      "AF0013",
+      "AF0002"
+    ],
+    "top5_ids": [
+      "AF0031",
+      "AF0013",
+      "AF0051",
+      "AF0046",
+      "AF0054"
+    ],
+    "top5_names": [
+      "Monopotassium Phosphate",
+      "Water-Soluble Fertilizer Specially for Citrus",
+      "Calcium Magnesium Boron Zinc Iron",
+      "Chlorophyll 120",
+      "Home Gardening Ready-to-Use Nutrient Solution"
+    ],
+    "top5_distances": [
+      1.185,
+      1.213,
+      1.214,
+      1.231,
+      1.232
+    ],
+    "hit_top1": false,
+    "hit_top3": true,
+    "hit_top5": true
+  }
+]

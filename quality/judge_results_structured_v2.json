@@ -1,0 +1,2299 @@
+[
+  {
+    "product_id": "AF0001",
+    "product_name": "Citrus Junliqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values faithfully match the structured source with no factual discrepancies.",
+      "Entities are correctly categorised: diseases under TARGET DISEASES, symptoms under SYMPTOMS ADDRESSED, and no pests correctly represented as None.",
+      "The document is highly retrievable because it includes the full product identity, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0002",
+    "product_name": "Allium Bacteria Clear for Onion, Ginger, and Garlic",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly, with no omissions, additions, or numeric mismatches.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, symptoms are under SYMPTOMS ADDRESSED, and the empty pest field is correctly represented as None.",
+      "The summary contains all major searchable terms needed for retrieval, including product names, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity."
+  },
+  {
+    "product_id": "AF0003",
+    "product_name": "Rice Bacteria Clear",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Symptoms are correctly separated from diseases, and the empty target pests field is correctly represented as None.",
+      "The document includes all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0004",
+    "product_name": "Cabbage and Chinese Cabbage Anti-Rot Core-Protection Agent",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including explicit None values for empty sections.",
+      "Product identity, crops, diseases, symptoms, active ingredient, product types, and dosage match the source exactly.",
+      "Entities are correctly categorised, with diseases, symptoms, and pests clearly separated.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0005",
+    "product_name": "Strawberry Junliqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Entities are correctly categorised: diseases under TARGET DISEASES, symptoms under SYMPTOMS ADDRESSED, and no pests correctly represented as None.",
+      "The summary contains all key searchable terms needed for reliable retrieval, including product names, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0006",
+    "product_name": "Jun Li Qing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, symptoms are under SYMPTOMS ADDRESSED, and the empty pest field is correctly represented as None.",
+      "The document is highly retrievable because it includes the full product name set, product types, complete crop coverage, and complete disease coverage."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0007",
+    "product_name": "Chili Bacterial Clear",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, symptoms are under SYMPTOMS ADDRESSED, and the empty pest field is correctly represented as None.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source."
+  },
+  {
+    "product_id": "AF0008",
+    "product_name": "Cucumber Junliqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly, with no omissions, additions, or factual distortions.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, symptoms are under SYMPTOMS ADDRESSED, and the empty pest field is correctly represented as None.",
+      "The summary is highly retrieval-friendly because it includes the full product identity, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity."
+  },
+  {
+    "product_id": "AF0009",
+    "product_name": "Bags of Junliqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, symptoms, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Symptoms are correctly separated from target diseases, and the empty target pests field is correctly represented as None.",
+      "The document contains strong retrieval terms across product identity, product types, crops, and diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity."
+  },
+  {
+    "product_id": "AF0010",
+    "product_name": "Qingmanyuan",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, pests, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Entities are correctly categorised under crops, diseases, pests, and symptoms, with the empty symptoms field honestly represented as None.",
+      "The document contains all major searchable terms needed for retrieval, including product names, product types, target crops, diseases, and pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is highly suitable for retrieval."
+  },
+  {
+    "product_id": "AF0011",
+    "product_name": "Rapeseed Junliqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, symptoms, active ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED and there are no target pests listed beyond an explicit None.",
+      "The summary is highly retrieval-friendly because it includes the full product name set, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0012",
+    "product_name": "Rootline Clear (Microbial Agent)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, pests, symptoms, active ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric mismatches.",
+      "Entities are correctly categorised, with nematodes listed under TARGET PESTS and plant symptoms listed under SYMPTOMS ADDRESSED.",
+      "The summary is highly retrievable because it includes the product ID, English and Chinese names, product types, and all major searchable agronomic targets."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0013",
+    "product_name": "Water-Soluble Fertilizer Specially for Citrus",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "All values faithfully match the structured source with no factual discrepancies or hallucinated content.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, and empty target disease/pest fields are appropriately represented as None.",
+      "The document preserves key searchable terms for retrieval, including product names, product types, crop coverage, symptom terms, dosage expressions, and application methods."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "AF0014",
+    "product_name": "Chinese Cabbage and Cabbage Water-Soluble Fertilizer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, diseases, symptoms, dosage, and explicitly empty sections.",
+      "All values match the structured source exactly, with no hallucinated ingredients, pests, methods, or warnings.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, symptoms are under SYMPTOMS ADDRESSED, and empty pest data is correctly shown as None.",
+      "The summary contains all major searchable terms needed for retrieval, including English and Chinese product names, crop list, disease targets, and product types."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is suitable for reliable search and downstream use."
+  },
+  {
+    "product_id": "AF0015",
+    "product_name": "Water-Soluble Fertilizer for Onion, Ginger, and Garlic",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, symptoms, dosage, and null-applicable sections.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Symptoms are correctly separated from diseases and pests, and empty sections are honestly represented as None.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product types, complete crop list, symptoms, and dosage."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is suitable for retrieval."
+  },
+  {
+    "product_id": "AF0016",
+    "product_name": "Strong Root Growth",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, symptoms, active ingredients, product types, dosages, application methods, and safety warnings.",
+      "The document matches the source exactly with no factual discrepancies, omissions, or added content.",
+      "Entities are correctly categorised: nematodes are under TARGET PESTS, symptoms are under SYMPTOMS ADDRESSED, and the empty disease field is honestly represented as None.",
+      "The summary is highly retrievable because it preserves all searchable crop, symptom, pest, dosage, and product-type terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0017",
+    "product_name": "One Spray Green",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including honest null sections rendered as None.",
+      "Product identity, crop list, pest entry, symptoms, product type, and dosage exactly match the source.",
+      "Symptoms are correctly separated from target pests and target diseases, preserving proper entity categorisation.",
+      "The document is highly retrievable because it includes the full product name set, crop coverage, symptom terms, product type, and dosage."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0018",
+    "product_name": "Melon Growth Enhancer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, diseases under TARGET DISEASES, and the empty pest field is correctly represented as None.",
+      "The document contains strong retrieval terms across product name, Chinese name, product types, crop coverage, symptoms, and usage instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is highly suitable for retrieval."
+  },
+  {
+    "product_id": "AF0019",
+    "product_name": "Underground Rhizome Enlarging Agent",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "The document faithfully matches the ground truth values with no omissions, hallucinations, or numeric discrepancies.",
+      "Empty target disease and target pest sections are correctly represented as None, which is appropriate for this product.",
+      "Symptoms are correctly separated from diseases and pests, supporting accurate categorisation and retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "AF0020",
+    "product_name": "Sweet Potato Baby",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Symptoms are correctly separated from target diseases and target pests, and honest null disease/pest fields are properly represented as None.",
+      "The document is highly retrievable because it includes the full product name set, product types, complete crop list, and symptom terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0021",
+    "product_name": "Antifreeze Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredient, product types, dosages, application methods, and safety warnings.",
+      "The document matches the source exactly with no factual errors, omissions, or hallucinated content.",
+      "Symptoms are correctly separated from target diseases and target pests, and honest null sections are properly represented as None.",
+      "The summary preserves all searchable crop and usage terms, making it highly suitable for retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0022",
+    "product_name": "Fruit Set Retention Enhancer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no omissions, hallucinations, or numeric discrepancies.",
+      "Entities are correctly categorised: symptoms are listed under symptoms addressed, and empty target disease/pest fields are appropriately represented as None.",
+      "The summary is highly retrieval-friendly because it includes the full crop list, product types, symptom terms, and application-related keywords."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0023",
+    "product_name": "Golden Wheat",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredient, product types, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: symptoms are listed under symptoms, and empty target disease/pest fields are appropriately represented as None.",
+      "The document is highly retrievable because it includes the full product name set, product types, complete crop list, and all application and dosage terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is suitable for reliable search and downstream use."
+  },
+  {
+    "product_id": "AF0024",
+    "product_name": "Rooting Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including null-applicable sections such as target pests, active ingredients, application methods, and safety warnings.",
+      "Product identity, crop list, disease, symptoms, product types, and dosage match the source exactly.",
+      "Entities are correctly categorised, with symptoms kept separate from target diseases and no pest/disease confusion.",
+      "The document contains all major searchable terms needed for retrieval, including English and Chinese product names, product types, crops, disease, and symptoms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0025",
+    "product_name": "Seedling Rapid Growth Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, disease, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised, with Root Rot under target diseases, no pests listed, and plant condition terms correctly placed under symptoms addressed.",
+      "The summary is highly retrieval-friendly because it preserves the full set of searchable product names, product types, crop targets, disease target, and usage details."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source data."
+  },
+  {
+    "product_id": "AF0026",
+    "product_name": "Eggplant No.1",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including honest null sections represented as None.",
+      "Product identity, crop, disease, symptoms, product type, and dosage exactly match the source.",
+      "Symptoms are correctly separated from target diseases, with no categorisation errors."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0027",
+    "product_name": "Hydroponic Treasure",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully represented, including crops, disease, pest, symptoms, dosage, and application method.",
+      "Document values match the ground truth exactly with no factual errors or omissions.",
+      "Entities are correctly categorised: Root Rot under target diseases, Green Algae under target pests, and plant condition descriptors under symptoms addressed.",
+      "The summary is highly retrievable because it includes product identifiers, bilingual naming, product types, target crops, and treatment-related terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0028",
+    "product_name": "Root Explosion 999",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including null-applicable sections shown as None.",
+      "Product identity, crop list, symptoms, dosage, application methods, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with symptoms kept under SYMPTOMS ADDRESSED and no confusion between diseases, pests, and symptoms.",
+      "The document is highly retrievable because it preserves the full product name, Chinese name, product types, and complete target crop coverage."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0029",
+    "product_name": "Green Leaf Pioneer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including honest null sections shown as None.",
+      "Product identity, crop list, symptoms, product type, and dosage match the source exactly.",
+      "Symptoms are correctly separated from target diseases and target pests, preserving proper entity categorisation.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0030",
+    "product_name": "Flower Induction and Fruit Setting Agent",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and correctly populated, including null-applicable sections shown as None.",
+      "Core identity fields, product type, full crop list, symptoms, and dosage exactly match the structured source.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, while diseases and pests are correctly marked as None.",
+      "The document is highly retrievable because it preserves the full searchable vocabulary for product name, crop targets, symptom terms, and dosage."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source."
+  },
+  {
+    "product_id": "AF0031",
+    "product_name": "Monopotassium Phosphate",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including honest null sections shown as None.",
+      "Product identity, crop list, symptoms, active ingredient, product types, and dosage exactly match the source.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, and empty disease/pest/application/safety sections are appropriately represented.",
+      "The document is highly retrievable because it includes all key searchable terms from the source."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0033",
+    "product_name": "No-Dilution Nutrient Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredients, dosages, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no factual discrepancies or omissions.",
+      "Entities are correctly categorised, with symptoms listed under SYMPTOMS ADDRESSED and honest nulls represented as None for target diseases and target pests.",
+      "The summary is highly retrieval-friendly because it preserves all searchable product names, product types, crop targets, symptom terms, and usage instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0034",
+    "product_name": "Plant Revival Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, ingredients, dosages, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no hallucinations, omissions, or numeric mismatches.",
+      "Symptoms are correctly separated from target diseases and target pests, and honest null sections are properly represented as None.",
+      "The summary is highly searchable because it includes the full product name, Chinese name, product type, complete crop list, and symptom terminology."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0035",
+    "product_name": "Carbendazim",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including explicit null-equivalent sections shown as None.",
+      "Core identity fields, product type, target crops, and target diseases match the source exactly.",
+      "Entities are correctly categorised, with no confusion between diseases, pests, and symptoms.",
+      "The document is highly retrievable because all major searchable terms are preserved."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0036",
+    "product_name": "Plant Nutrient Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable None values for non-applicable sections.",
+      "Product identity, crop list, symptoms, product types, and application methods match the source exactly.",
+      "Symptoms are correctly separated from diseases and pests, with no categorisation errors.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0037",
+    "product_name": "Vegetable Worm Killer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections for target diseases and symptoms.",
+      "Product identity, target crops, target pests, active ingredients, product types, dosage, application methods, and safety warnings match the source exactly.",
+      "All entities are correctly categorised, with pests listed under TARGET PESTS and no disease-symptom confusion.",
+      "The summary is highly retrievable because it includes the full product name set, crop, pest spectrum, formulation-related terms, and usage instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0038",
+    "product_name": "Aphid and Leafhopper Clear",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including correctly represented empty sections for target crops, target diseases, and symptoms.",
+      "Product identity, target pests, active ingredients, product types, dosages, application methods, and safety warnings match the source exactly.",
+      "All entities are correctly categorised under their proper headings, with pests listed under TARGET PESTS and no category confusion.",
+      "The summary is highly retrievable because it includes the full product name, Chinese name, product ID, product types, and complete pest list."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0039",
+    "product_name": "Spider No.1/Spider Mite Killer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including empty target_diseases and symptoms sections represented as None.",
+      "Product identity, target crops, target pests, active ingredient, product types, dosages, application methods, and safety warnings match the source exactly.",
+      "All entities are correctly categorised, with pests listed under TARGET PESTS and no confusion with diseases or symptoms.",
+      "The document is highly retrievable because it includes all major searchable terms and aliases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0040",
+    "product_name": "Tree Bamboo Grass",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, active ingredient, dosage, application method, and full safety warnings.",
+      "All values match the structured source faithfully with no hallucinations or omissions.",
+      "Empty sections for target diseases, target pests, and symptoms are correctly represented as None.",
+      "Entities are correctly categorised under their respective headings, supporting reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully faithful to the structured entity source."
+  },
+  {
+    "product_id": "AF0041",
+    "product_name": "Rootline Clear (Adjuvant)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, targets, ingredients, dosages, application methods, and safety warnings.",
+      "All values match the ground truth exactly with no hallucinations or omissions.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are honestly represented as None.",
+      "The summary is highly searchable because it includes product names, product types, crop scope, pest targets, active ingredients, dosage expressions, and application instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0001",
+    "product_name": "Bacillus thuringiensis 4000 IU/μL",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including honest null sections for target diseases and symptoms.",
+      "Product identity, active ingredient, product types, target crops, target pests, dosages, application method, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no disease/symptom confusion.",
+      "The document contains all major searchable terms needed for retrieval, including product name, Chinese name, formulation type, crops, and pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0002",
+    "product_name": "Pyrazole Ether Fungicide - Kairun",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, diseases, active ingredient, dosage, application method, and safety warnings.",
+      "All values match the structured source faithfully with no factual discrepancies.",
+      "Empty sections for target pests and symptoms are correctly represented as None, which is appropriate for this product.",
+      "Entities are correctly categorised under crops, diseases, pests, symptoms, and other product metadata.",
+      "The document contains all major searchable terms needed for retrieval, including product names, crop scope, disease spectrum, and formulation strength."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully faithful to the source and highly suitable for retrieval."
+  },
+  {
+    "product_id": "PN0003",
+    "product_name": "Ethyl Polyoxin",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections shown as None.",
+      "Product identity, active ingredient, product types, target crops, target pests, dosage, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no confusion with diseases or symptoms.",
+      "The document is highly retrievable because it preserves all key searchable terms from the source."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0004",
+    "product_name": "30% Fenitrothion",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredient, dosages, application methods, and safety warnings.",
+      "All listed values match the structured source exactly with no omissions or hallucinations.",
+      "Entities are correctly categorised: pests are under TARGET PESTS, and empty disease/symptom/application sections are appropriately represented as None.",
+      "The summary is highly retrievable because it preserves the full set of searchable crop, pest, ingredient, and product-type terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0005",
+    "product_name": "29% Insecticidal Duo",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosages, application method, and safety warnings.",
+      "The document faithfully matches the ground truth values with no factual discrepancies.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary is highly retrievable because it includes the full product name, Chinese name, product types, target crops, and target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document is complete, accurate, correctly categorised, and suitable for search and downstream use."
+  },
+  {
+    "product_id": "PN0006",
+    "product_name": "1.8% Abamectin",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the ground truth exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: target pests are listed under TARGET PESTS, and empty target diseases and symptoms are honestly represented as None.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product types, crop coverage, pest spectrum, dosage expressions, and application methods."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0007",
+    "product_name": "3% Metalaxyl-M",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, active ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Empty target pests and symptoms are correctly represented as None, which is appropriate for this product record.",
+      "Entities are correctly categorised under crops, diseases, pests, symptoms, and safety sections.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0008",
+    "product_name": "30% Metalaxyl-M",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, active ingredients, dosages, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no factual, numeric, or categorical errors.",
+      "Empty sections for target pests and symptoms are correctly represented as None, which is appropriate for this product data.",
+      "Searchable retrieval terms are comprehensive, including product names, crop scope, disease spectrum, formulation details, and use instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0009",
+    "product_name": "3.2% Emamectin Benzoate Chlorantraniliprole",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredients, dosages, application method, and full safety warnings.",
+      "All values match the structured source exactly, with no hallucinated crops, pests, diseases, or ingredients.",
+      "Empty target_diseases and symptoms fields are correctly represented as None.",
+      "Entities are correctly categorised under crops, pests, symptoms, ingredients, dosages, and safety warnings.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product types, target crops, and target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0010",
+    "product_name": "10% Quizalofop-P-ethyl Ammonium Salt",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, pests, active ingredient, dosages, application method, and safety warnings.",
+      "The document faithfully preserves all target crops and target pests without omission or truncation.",
+      "Empty sections for target diseases and symptoms are correctly represented as None, which is appropriate for this herbicide product.",
+      "Entities are correctly categorised: weeds are listed under TARGET PESTS, while diseases and symptoms remain empty.",
+      "Search-relevant terms are fully retained, supporting strong retrieval utility."
+    ],
+    "recommendation": "No changes needed; the retrieval document accurately and completely reflects the structured entity source."
+  },
+  {
+    "product_id": "PN0011",
+    "product_name": "Efficient Cyhalothrin 2.5%",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric mismatches.",
+      "Entities are correctly categorised, with pests under TARGET PESTS, no diseases listed, and human exposure effects correctly placed under SYMPTOMS ADDRESSED.",
+      "The document is highly retrievable because it includes all major searchable terms such as product names, product types, target crops, target pests, dosage expressions, and application methods."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0012",
+    "product_name": "Insect Mite Cyantraniliprole Mite Urea",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, ingredients, dosages, application method, and safety warnings.",
+      "The document faithfully matches the ground truth values with no factual discrepancies.",
+      "Empty sections for target diseases and symptoms are correctly represented as None rather than hallucinated content.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no misplacement into disease or symptom sections.",
+      "The summary is highly retrievable because it includes the full product name, Chinese name, product type, crop coverage, pest spectrum, and use instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document is complete, accurate, correctly categorised, and suitable for search and downstream use."
+  },
+  {
+    "product_id": "PN0013",
+    "product_name": "24% Biphenyl Hydrazide Ester - Meiman Orange Orchard",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredient, dosage, application methods, and safety warnings.",
+      "The document faithfully matches the ground truth with no factual discrepancies or hallucinated content.",
+      "Empty sections for target diseases and symptoms are correctly represented as None, which is appropriate for this pesticide product.",
+      "Entities are correctly categorised, with mites listed under target pests and no category confusion."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0014",
+    "product_name": "45% Propineb·Etoxazole",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including null-applicable sections such as target diseases, symptoms, and safety warnings.",
+      "Product identity, crop scope, pest list, active ingredients, dosages, and application method match the source exactly.",
+      "Target pests are correctly separated from diseases and symptoms, supporting accurate categorisation and retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0015",
+    "product_name": "24% Oxadiazon",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, symptoms, dosages, application method, and full safety warnings.",
+      "The document matches the source values exactly with no factual discrepancies or omissions.",
+      "Entities are correctly categorised: target pests are listed under TARGET PESTS, symptoms under SYMPTOMS ADDRESSED, and the absence of target diseases is correctly represented as None.",
+      "The summary is highly retrievable because it includes all major searchable terms such as product name, Chinese name, product type, crops, pests, dosage, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0016",
+    "product_name": "50% Quizalofop-P-ethyl",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "The retrieval document faithfully matches the ground truth values with no factual discrepancies.",
+      "Entities are correctly categorised: weeds are listed under target pests, symptoms are separated under symptoms addressed, and target diseases is correctly marked as none for this herbicide.",
+      "The summary contains strong searchable coverage for product name, Chinese name, product type, target crops, target weeds, dosage, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0017",
+    "product_name": "75% Metsulfuron-methyl",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, product types, targets, active ingredient, dosages, application method, and safety warnings.",
+      "All values match the ground truth exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: weeds are listed under TARGET PESTS, and empty TARGET DISEASES and SYMPTOMS ADDRESSED are appropriately represented as None.",
+      "The document contains all key searchable terms needed for reliable retrieval, including product names in English and Chinese, formulation type, use sites, weed spectrum, dosage, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0018",
+    "product_name": "14-Brassinolide",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, symptoms, active ingredient, dosages, application method, and the full safety warning list.",
+      "All values match the ground truth exactly with no factual deviations.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, and empty target disease/pest fields are correctly represented as None.",
+      "The document is highly retrievable because it includes the full product identity, product types, crop coverage, symptom terms, and dosage/application keywords."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0019",
+    "product_name": "24-Brassinolide",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, symptoms, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Symptoms are correctly separated from diseases and pests, and null disease/pest sections are honestly represented as None.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product types, complete crop list, and application details."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity."
+  },
+  {
+    "product_id": "PN0020",
+    "product_name": "High-Efficiency Fluazifop-P-Butyl",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, product types, crops, pests, active ingredient, dosages, application methods, and safety warnings.",
+      "The document faithfully matches the ground truth with no omissions, hallucinations, or numeric mismatches.",
+      "Empty sections for target diseases and symptoms are correctly represented as None, which is appropriate for this herbicide product.",
+      "Entities are correctly categorised, with weeds listed under target pests rather than diseases or symptoms.",
+      "The summary is highly retrieval-friendly because it preserves all key searchable terms and variants from the source."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0021",
+    "product_name": "18% Limonene",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, diseases, pests, dosages, application method, and full safety warnings.",
+      "All values match the ground truth exactly with no omissions, hallucinations, or numeric mismatches.",
+      "Entities are correctly categorised under crops, diseases, pests, symptoms, active ingredients, product types, dosages, and application methods.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0022",
+    "product_name": "Aminoclorarsenate Acid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated in the retrieval document.",
+      "Product identity, active ingredient, product types, target crops, target pests, dosages, application method, and safety warnings match the source exactly.",
+      "Empty sections for target diseases and symptoms are correctly represented as None for a herbicide product.",
+      "Entities are correctly categorised, with weeds and woody broadleaf targets properly listed under target pests rather than diseases or symptoms.",
+      "The document is highly retrievable because it preserves all key searchable terms from the source."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0023",
+    "product_name": "Ethoxysulfuron",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including crops, pests, symptoms, active ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Entities are correctly categorised: weeds are under target pests, symptoms are under symptoms addressed, and target diseases is correctly marked as none.",
+      "The summary is highly retrievable because it includes the product ID, English and Chinese names, product types, target crops, and target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0024",
+    "product_name": "5% Imidacloprid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredient, dosages, application method, and safety warnings.",
+      "The document faithfully matches the ground truth values with no factual discrepancies.",
+      "Empty fields for target diseases and symptoms are correctly represented as None and are appropriate for this pesticide product.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no disease/symptom confusion.",
+      "The summary contains all major searchable terms needed for retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is complete, accurate, and well-structured."
+  },
+  {
+    "product_id": "PN0025",
+    "product_name": "10% Imidacloprid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosage, application method, and safety warnings.",
+      "All values match the ground truth exactly with no hallucinations or omissions.",
+      "Entities are correctly categorised: pests are under TARGET PESTS, and empty disease/symptom fields are honestly represented as None.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0026",
+    "product_name": "75% Imidacloprid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable explicit None values for target diseases and symptoms.",
+      "Product identity, crops, pests, active ingredient, dosage, application method, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no disease/symptom confusion.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0027",
+    "product_name": "Abamectin Formate",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosages, application method, and full safety warnings.",
+      "The retrieval document matches the ground truth exactly with no factual discrepancies or numeric mismatches.",
+      "Entities are correctly categorised: pests are under TARGET PESTS, and empty disease/symptom fields are honestly represented as None.",
+      "The document is highly searchable because it includes the full product name, Chinese name, product types, crop coverage, pest spectrum, dosage expressions, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0028",
+    "product_name": "10% Imidacloprid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredient, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly, with no omissions, hallucinations, or numeric discrepancies.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease and symptom fields are appropriately represented as None.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product type, complete crop list, and complete pest list."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0029",
+    "product_name": "6% Chunyeimycin",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, diseases, active ingredient, dosages, application method, and safety warnings.",
+      "All values match the structured entity source exactly, with no omissions or hallucinations.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, and empty target pests and symptoms are correctly represented as None.",
+      "The document contains all key searchable terms needed for retrieval, including product names, crop names, disease names, and active ingredient."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity data."
+  },
+  {
+    "product_id": "PN0030",
+    "product_name": "3% Phoxim",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, dosage, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no factual discrepancies or hallucinated content.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are honestly represented as None.",
+      "The summary contains all key searchable terms needed for retrieval, including English and Chinese product names, product types, target crops, and target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0031",
+    "product_name": "6% Glutaraldehyde",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated in the retrieval document.",
+      "Product identity, active ingredient, target crops, target pests, dosage, application methods, and safety warnings match the source exactly.",
+      "Empty target diseases and symptoms are correctly represented as None, which is appropriate for this product.",
+      "All entities are placed under the correct section headings, supporting accurate retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0032",
+    "product_name": "5% Cyazofamid",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, targets, active ingredient, dosages, application methods, and safety warnings.",
+      "The document faithfully matches the ground truth with no factual discrepancies or hallucinated content.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary includes all major searchable terms needed for retrieval, including product names, product types, target crops, and target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0033",
+    "product_name": "18% Imidacloprid·Thiazopyr",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredients, dosages, application method, and safety warnings.",
+      "The document faithfully matches the ground truth with no factual discrepancies or omissions.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary is highly retrievable because it includes all major searchable terms such as product names, crop targets, pest targets, formulation details, and usage instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0034",
+    "product_name": "1.8% Cyprodinil Acetate",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, active ingredient, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, and empty TARGET PESTS and SYMPTOMS sections are appropriately represented as None.",
+      "The document contains all major searchable terms needed for retrieval, including product names, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0035",
+    "product_name": "Glyphosate Ammonium Salt 33%",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including honest null sections for target diseases and symptoms.",
+      "Product identity, active ingredient, product types, target crops, target pests, dosages, application methods, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with weeds listed under target pests and no disease/symptom confusion.",
+      "The document is highly retrievable because it preserves all major searchable terms and structured headings."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0036",
+    "product_name": "10% Quizalofop-P-ethyl Ammonium Salt",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosage, application method, and safety warnings.",
+      "The retrieval document matches the source values exactly with no factual discrepancies.",
+      "Empty inapplicable sections for target diseases and symptoms are correctly represented as None.",
+      "All entities are correctly categorised, with weeds listed under target pests rather than diseases or symptoms.",
+      "The document contains strong searchable coverage for product name, formulation type, target crops, weed spectrum, dosage, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0037",
+    "product_name": "12% Bifenazate·Spiromesifen",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including empty target_diseases and symptoms sections represented correctly as None.",
+      "Core identity fields, product types, crops, pests, active ingredients, dosages, application methods, and safety warnings match the source exactly.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, while TARGET DISEASES and SYMPTOMS ADDRESSED are appropriately empty.",
+      "The document is highly retrieval-friendly because it preserves all searchable names, crop targets, pest targets, formulation type, and dosage/application terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0039",
+    "product_name": "50g/L Sulfosulfuron",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including honest null sections for target diseases and symptoms.",
+      "Product identity, active ingredient, dosage, application methods, target crop, and target pests match the source exactly.",
+      "Entities are correctly categorised, with weed targets placed under TARGET PESTS and no category confusion.",
+      "The summary includes all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0040",
+    "product_name": "30% Thiamethoxam",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully represented, including identity, crops, pests, active ingredient, dosage, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no factual errors or hallucinated content.",
+      "Entities are correctly categorised: Rice Planthoppers are listed under target pests, while target diseases and symptoms are correctly shown as none.",
+      "The summary contains all key searchable terms needed for retrieval, including product name, Chinese name, formulation type, target crops, pest, dosage, and application method."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0041",
+    "product_name": "22% Thiamethoxam High Chlorfluazuron",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections shown as None.",
+      "Product identity, active ingredients, crops, pests, dosages, application methods, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no disease/symptom confusion.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0042",
+    "product_name": "50% Carbendazim",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, active ingredient, dosage, application methods, and safety warnings.",
+      "The document matches the ground truth exactly with no factual errors, omissions, or hallucinated content.",
+      "Entities are correctly categorised: diseases are under TARGET DISEASES, and empty target pests and symptoms are appropriately represented as None.",
+      "The summary contains all key searchable terms needed for retrieval, including product names, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0043",
+    "product_name": "200g/L Quizalofop-P-ethyl",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosage, application method, and safety warnings.",
+      "The document faithfully matches the ground truth values with no omissions, hallucinations, or numeric discrepancies.",
+      "Entities are correctly categorised: weeds are listed under target pests, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary contains all key searchable terms needed for retrieval, including product names, product type, target crops, target pests, and active ingredient."
+    ],
+    "recommendation": "No changes needed; the retrieval document is a faithful and highly usable structured summary of the source entity."
+  },
+  {
+    "product_id": "PN0044",
+    "product_name": "10% Bensulfuron-methyl",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including null-applicable sections shown as None.",
+      "Product identity, active ingredient, target crop, target pests, dosage, application method, and safety warnings match the source exactly.",
+      "Entities are correctly categorised: weeds are listed under TARGET PESTS, while TARGET DISEASES and SYMPTOMS ADDRESSED are correctly empty.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "PN0045",
+    "product_name": "30% Glyphosate Isopropylamine Salt",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, active ingredient, dosage, application method, and safety warning.",
+      "The document faithfully matches the ground truth with no factual discrepancies or hallucinated content.",
+      "Entities are correctly categorised: weeds are listed under target pests, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0046",
+    "product_name": "10% Glufosinate-Ammonium",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and faithfully represented, including identity, crop targets, pest target, active ingredient, dosages, application methods, and safety warning.",
+      "Null-applicable sections are handled correctly with 'None' for target diseases and symptoms, which is appropriate for this herbicide product.",
+      "Entities are correctly categorised, with weeds placed under TARGET PESTS and no disease/symptom confusion.",
+      "Searchable retrieval terms are complete and clear, supporting queries by product name, Chinese name, type, crops, pest target, and application details."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured source."
+  },
+  {
+    "product_id": "PN0047",
+    "product_name": "69g/L Propyzamide and Metazachlor",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and correctly populated.",
+      "Product identity, crop, pest, active ingredient, dosage, and safety warning exactly match the structured source.",
+      "Empty sections such as target diseases, symptoms, and application methods are honestly represented as None without hallucination.",
+      "Entities are correctly categorised, with Poaceae Weeds placed under target pests."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source and is highly suitable for retrieval."
+  },
+  {
+    "product_id": "PN0048",
+    "product_name": "56% 2-Methyl-4-Chlorophenoxyacetic Acid Sodium Salt",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product type, crops, pest target, active ingredient, dosages, application method, and safety warnings.",
+      "The document faithfully matches the ground truth with no factual discrepancies or hallucinated content.",
+      "Empty inapplicable fields are correctly represented as None for target diseases and symptoms.",
+      "Entity placement is correct: Broadleaf Weeds is under TARGET PESTS, while diseases and symptoms remain empty.",
+      "Searchable retrieval terms are strong, including English and Chinese product names, product types, target crops, pest target, and application details."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "PN0049",
+    "product_name": "10% Imidacloprid (Bangsai Ke)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections shown as None.",
+      "Product identity, active ingredient, crop, pest targets, dosage, application method, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no disease/symptom confusion.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "PN0050",
+    "product_name": "10% Imidacloprid (Dafei No.1)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully represented, including identity, crops, pests, dosages, application method, and full safety warnings.",
+      "Values match the ground truth exactly with no factual errors or omissions.",
+      "Empty fields are correctly represented as None for target diseases and symptoms.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no category confusion.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully matches the structured source."
+  },
+  {
+    "product_id": "PN0051",
+    "product_name": "10% High-Efficiency Cyhalothrin",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, targets, ingredients, dosage, application methods, and safety warnings.",
+      "All values match the structured source faithfully with no factual errors or omissions.",
+      "Empty target_diseases and symptoms fields are correctly represented as None rather than hallucinated content.",
+      "Entities are correctly categorised, with Diamondback Moth Larvae properly listed under target pests.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0042",
+    "product_name": "Wanjunqing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated in the retrieval document.",
+      "Product identity, crop list, disease, symptoms, active ingredient, product types, dosages, application methods, and safety warnings all match the source faithfully.",
+      "Entities are correctly categorised, with Root Rot under target diseases, no pests listed, and plant symptoms correctly placed under symptoms addressed.",
+      "The document contains all major searchable terms needed for reliable retrieval, including product names, product types, crops, disease, and application-related dosage phrases."
+    ],
+    "recommendation": "No changes needed; the retrieval document is a faithful and retrieval-ready representation of the structured source."
+  },
+  {
+    "product_id": "AF0043",
+    "product_name": "Quan Chong Jing",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, targets, ingredients, dosages, application methods, and safety warnings.",
+      "The retrieval document matches the ground truth exactly with no factual discrepancies.",
+      "Pests, diseases, and symptoms are correctly separated, with empty disease and symptom fields represented appropriately as None.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0044",
+    "product_name": "Agricultural Organosilicon",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product type, active ingredient, dosage, application method, and full safety warnings.",
+      "The document accurately preserves null-applicable sections as None for target diseases, target pests, and symptoms.",
+      "All entities are correctly categorised under their proper headings.",
+      "Key searchable terms are fully retained, supporting reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully matches the structured source."
+  },
+  {
+    "product_id": "AF0045",
+    "product_name": "Green Onion Strong",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, symptoms, active ingredient, product types, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly, with no hallucinations, omissions, or numeric mismatches.",
+      "Empty target disease and target pest fields are correctly represented as None.",
+      "Symptoms are correctly placed under SYMPTOMS ADDRESSED rather than misclassified as diseases or pests.",
+      "The document is highly retrieval-friendly because it preserves all searchable product names, crop targets, formulation/type terms, and usage details."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0046",
+    "product_name": "Chlorophyll 120",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, symptoms, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly, with no omissions, additions, or numeric discrepancies.",
+      "Entities are correctly categorised: symptoms are under SYMPTOMS ADDRESSED, and empty disease/pest fields are honestly represented as None.",
+      "The document is highly retrievable because it includes the full product name set, complete crop coverage, product types, and usage instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0047",
+    "product_name": "Spider Mite Nemesis (Spider No.1)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredients, product types, dosage, application methods, and safety warnings.",
+      "All values match the structured source faithfully with no omissions, additions, or numeric discrepancies.",
+      "Empty fields are correctly represented as None for target diseases and symptoms.",
+      "Entities are correctly categorised, with all pest targets listed under TARGET PESTS and no category confusion.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is a faithful and complete structured summary of the source entity."
+  },
+  {
+    "product_id": "AF0048",
+    "product_name": "Herbicide Ling (Complete Root Removal for Trees, Bamboo, and Grass)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, targets, active ingredient, dosage, application method, and safety warnings.",
+      "The document matches the ground truth exactly with no factual discrepancies or hallucinated content.",
+      "Empty target disease, target pest, and symptom fields are correctly represented as None.",
+      "Entities are correctly categorised under their respective headings, supporting reliable interpretation and retrieval.",
+      "Searchable terms such as product ID, English and Chinese names, product types, target crops, and active ingredient are clearly preserved."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0049",
+    "product_name": "Liquid Boron",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, symptoms, active ingredient, product types, dosages, application methods, and safety warnings.",
+      "All values match the ground truth exactly with no omissions, additions, or numeric discrepancies.",
+      "Empty target disease and target pest fields are correctly represented as None for this product type.",
+      "Symptoms are correctly separated from diseases and pests, preserving proper entity categorisation.",
+      "The document contains all major searchable terms needed for retrieval, including product names, crop list, formulation type, and usage details."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0050",
+    "product_name": "Humic Acid Nutrient Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source faithfully with no omissions or hallucinations.",
+      "Empty target disease, pest, and symptom fields are correctly represented as None.",
+      "Entities are correctly categorised under their respective headings, supporting reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully faithful to the structured entity source."
+  },
+  {
+    "product_id": "AF0051",
+    "product_name": "Calcium Magnesium Boron Zinc Iron",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, product types, crops, active ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source faithfully with no omissions or hallucinations.",
+      "Empty sections for target diseases, target pests, and symptoms are correctly represented as None for this fertilizer/growth promoter product.",
+      "Entity placement is fully correct, with crops, ingredients, dosages, and application methods under the appropriate headings.",
+      "The document is highly retrievable because it includes the full product name, Chinese name, product types, complete crop list, and all dosage/application terms."
+    ],
+    "recommendation": "No changes needed; the retrieval document is a faithful and complete structured summary of the source entity."
+  },
+  {
+    "product_id": "AF0052",
+    "product_name": "Rice Disease Cleaner",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, targets, ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Entities are correctly categorised under crops, diseases, pests, symptoms, active ingredients, product types, dosages, and application methods.",
+      "The document contains all key searchable terms needed for reliable retrieval, including English and Chinese product names, crop scope, disease target, pest target, and product types."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0053",
+    "product_name": "Rapeseed Pathogen Cleaner",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no factual discrepancies.",
+      "Empty target pests and symptoms are correctly represented as None rather than omitted or hallucinated.",
+      "Entities are correctly categorised under their respective headings, supporting reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0054",
+    "product_name": "Home Gardening Ready-to-Use Nutrient Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, symptoms, active ingredients, dosage, application method, and safety warnings.",
+      "The document matches the source values exactly with no factual deviations or hallucinated content.",
+      "Symptoms are correctly separated from target diseases and target pests, and honest nulls are correctly represented as None.",
+      "The summary is highly searchable because it includes the full product name, Chinese name, product type, target crops, symptoms, and use instructions."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0055",
+    "product_name": "Macronutrient Revitalizing Solution",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, product types, crops, symptoms, dosage, application methods, and safety warnings.",
+      "The document faithfully matches the ground truth values with no factual discrepancies or hallucinated content.",
+      "Empty target disease, target pest, and active ingredient fields are correctly represented as None.",
+      "Symptoms are correctly placed under SYMPTOMS ADDRESSED rather than misclassified as diseases or pests.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully aligned with the structured entity source."
+  },
+  {
+    "product_id": "AF0056",
+    "product_name": "Virus No.1",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, product types, crops, active ingredient, dosages, application methods, and safety warnings.",
+      "The document matches the source values exactly with no hallucinations, omissions, or numeric discrepancies.",
+      "Empty sections for target diseases, target pests, and symptoms are correctly represented as None, which is appropriate for this product.",
+      "Entities are correctly categorised under their respective headings, supporting accurate interpretation and retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0057",
+    "product_name": "Gray Mold No.1",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, diseases, ingredients, dosages, application methods, and safety warnings.",
+      "All values match the structured source exactly with no factual errors or omissions.",
+      "Entities are correctly categorised, with diseases under TARGET DISEASES and honest nulls represented appropriately for TARGET PESTS and SYMPTOMS ADDRESSED.",
+      "The document contains all key searchable terms needed for reliable retrieval, including product names, product types, target crops, and target diseases."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the source entity."
+  },
+  {
+    "product_id": "AF0058",
+    "product_name": "Aphid and Leafhopper No.1",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including identity, crops, pests, ingredients, dosages, application methods, and safety warnings.",
+      "All values faithfully match the structured source with no omissions, hallucinations, or numeric mismatches.",
+      "Entities are correctly categorised: pests are listed under TARGET PESTS, and empty disease/symptom fields are appropriately represented as None.",
+      "The summary includes all key searchable terms needed for reliable retrieval, including English and Chinese product names, product types, target crops, and pest spectrum."
+    ],
+    "recommendation": "No changes needed; the retrieval document is fully faithful to the source."
+  },
+  {
+    "product_id": "AF0059",
+    "product_name": "Macronutrient One-Spray Green",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including null-applicable sections such as target diseases, target pests, and active ingredients.",
+      "Product identity, crop list, symptoms, product types, dosages, application methods, and safety warnings match the source exactly.",
+      "Symptoms are correctly separated from diseases and pests, and all entities are placed under the appropriate headings.",
+      "The document contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0060",
+    "product_name": "Junliqing (3 Billion)",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, targets, ingredients, dosages, application method, and safety warnings.",
+      "All values match the structured source exactly with no omissions or hallucinations.",
+      "Entities are correctly categorised: Viral Diseases under target diseases, Insect Eggs under target pests, and symptoms correctly shown as none.",
+      "The summary contains all key searchable terms needed for reliable retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0061",
+    "product_name": "Cabbage Worm Killer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections for target diseases and symptoms.",
+      "Product identity, target crops, target pests, active ingredients, product types, dosage, application methods, and safety warnings match the source exactly.",
+      "All entities are correctly categorised under their proper headings, with pests and symptoms clearly separated.",
+      "The document is highly retrieval-friendly because it includes all key searchable terms and standardized section labels."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured source."
+  },
+  {
+    "product_id": "AF0062",
+    "product_name": "Green Worm Eliminator",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including empty disease and symptom sections represented correctly as None.",
+      "Product identity, target crops, target pests, active ingredients, product type, dosage, application methods, and safety warnings match the source exactly.",
+      "All entities are correctly categorised, with pests listed under TARGET PESTS and no confusion between diseases, pests, and symptoms.",
+      "The document is highly retrieval-friendly because it includes all key searchable terms and preserves the full pest list."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0063",
+    "product_name": "Caterpillar Killer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, targets, ingredients, dosage, application methods, and safety warnings.",
+      "All target pests are correctly listed with no omissions or additions.",
+      "Empty target_diseases and symptoms fields are honestly represented as None.",
+      "Entities are correctly categorised under crops, pests, ingredients, dosages, application methods, and safety warnings.",
+      "The document preserves strong retrieval terms including English name, Chinese name, product types, crop, and pest spectrum."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully matches the structured source."
+  },
+  {
+    "product_id": "AF0064",
+    "product_name": "Thrips No.1",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present and fully populated, including acceptable null sections for target diseases and symptoms.",
+      "Product identity, target crops, target pests, active ingredient, product types, dosages, application methods, and safety warnings match the source exactly.",
+      "Entities are correctly categorised, with pests listed under TARGET PESTS and no symptom/disease confusion.",
+      "The document is highly retrievable because it includes all major searchable terms and structured headings."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  },
+  {
+    "product_id": "AF0065",
+    "product_name": "Thrips Killer",
+    "document_type": "structured",
+    "scores": {
+      "completeness": 10,
+      "accuracy": 10,
+      "entity_categorisation": 10,
+      "retrieval_utility": 10,
+      "overall": 10
+    },
+    "issues": [],
+    "strengths": [
+      "All source fields are present, including identity, crops, pests, active ingredients, dosages, application methods, and safety warnings.",
+      "The target pests list matches the source completely and is correctly separated from target diseases and symptoms.",
+      "Null fields are handled appropriately with 'None' for target diseases and symptoms.",
+      "Product type, dosage, and application method terminology are faithfully preserved, supporting accurate retrieval."
+    ],
+    "recommendation": "No changes needed; the retrieval document faithfully represents the structured entity source."
+  }
+]

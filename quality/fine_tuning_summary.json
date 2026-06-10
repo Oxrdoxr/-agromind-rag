@@ -1,0 +1,12 @@
+{
+  "status": "fine_tuning_unavailable",
+  "reason": "OpenAI wound down self-serve fine-tuning platform May 2026",
+  "training_file": "agromind_training_v2.jsonl",
+  "uploaded_file_id": "file-ADCHrXKvirxCu2uYoL18Up",
+  "examples": 234,
+  "removed_self_harm": 2,
+  "removed_unsafe": 2,
+  "replacement_examples_added": 8,
+  "fallback": "few-shot examples in agent system prompt (notebook_08)",
+  "future": "training file ready for Gemini fine-tuning or when OpenAI reopens"
+}
