@@ -66,7 +66,6 @@ Qwen2.5-7B-Instruct (local via Ollama)
   ↓
   
 Response with citations
-```
 
 ### Key Components
 
