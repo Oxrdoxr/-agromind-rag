@@ -1,7 +1,120 @@
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+secrets/
+
+# ============================================
+# Virtual Environment
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ============================================
+# ChromaDB (Large + Proprietary)
+# ============================================
+chromadb/
+*.parquet
+*.sqlite3
+*.sqlite
+chroma-*.db
+
+# ============================================
+# Data Files (Get from Shared Drive)
+# ============================================
+data/
+!data/.gitkeep
 *.xlsx
 *.xls
-chromadb/
-.env
-__pycache__/
-*.pyc
+*.csv
+*.json
+!config.yaml
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+*.jsonl
+escalations.jsonl
+trace.json
+
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+Thumbs.db
+.desktop.ini
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================
+# Jupyter (if you keep any)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/  # Uncomment if you want to keep notebooks folder
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.cache
+
+# ============================================
+# OS Specific
+# ============================================
+.DS_Store
+.directory
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Ollama
+# ============================================
+ollama.log
+.ollama/
+
+# ============================================
+# LangSmith
+# ============================================
+.langsmith/
+langsmith_debug.log

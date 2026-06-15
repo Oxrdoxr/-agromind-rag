@@ -1,0 +1,50 @@
+# AgroMind Configuration — v4 (multimodal ready)
+llm:
+  provider: "ollama"
+  model: "qwen2.5:7b-instruct"
+  temperature: 0.1
+  max_tokens: 1024
+
+embedding:
+  provider: "ollama"
+  model: "bge-m3"
+  dimensions: 1024  # ← CHANGED: actual BGE-M3 output
+  query_prefix: "Represent this query for retrieval: "  # ← CHANGED
+  doc_prefix: "Represent this document for retrieval: "  # ← CHANGED
+  normalize: true  # ← NEW
+
+retrieval:
+  structured_collection: "agromind_structured_v4"
+  full_collection: "agromind_full_v4"
+  image_collection: "agromind_images_v4"  # ← KEEP but don't implement yet
+  top_k: 5
+  confidence_threshold: 0.85
+  bm25_weight: 0.4
+  vector_weight: 0.6
+  # ← NEW: hybrid search settings
+  hybrid_search:
+    enabled: true
+    bm25_alpha: 0.4  # weight for BM25 vs vector
+    rerank_top_k: 3   # rerank after fusion
+
+paths:
+  chromadb: "./chromadb"
+  data: "./data"
+  logs: "./logs"
+  escalations_log: "./logs/escalations.jsonl"
+  image_cache: "./cache/images"  # ← NEW: store encoded images
+
+agent:
+  max_retries: 2
+  faithfulness_threshold: 0.75
+  conversation_window: 4
+  # ← NEW: multimodal toggle
+  multimodal:
+    enabled: false  # set to true when ready
+    image_model: "clip-vit-base-patch32"  # or "blip-base"
+
+langsmith:
+  project: "agromind-local"
+  endpoint: "https://api.smith.langchain.com"
+  tracing_enabled: true
+   # API key goes in .env as LANGCHAIN_API_KEY

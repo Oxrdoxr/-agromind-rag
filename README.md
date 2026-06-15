@@ -1,227 +1,237 @@
-# Agro-Mind RAG Knowledge Base
+Perfect! I understand now. You need to **update the documentation** to reflect the **LangChain-based architecture** (not the original raw ChromaDB approach). Let me provide you with:
 
-Bilingual (Chinese + English) RAG system for an agricultural products company.
-Powers the Agro-Mind autonomous customer support agent with verified,
-hallucination-free product knowledge across 114 agricultural products.
-
----
-
-## What this repo contains
-
-| Section | Description |
-|---|---|
-| `notebooks/` | One notebook per pipeline phase (01–08 + fine-tuning) |
-| `data/entities/` | Normalized product entities — ground truth for the agent |
-| `data/retrieval_docs/` | Structured + full bilingual retrieval documents |
-| `data/finetuning/` | Cleaned training data (234 examples, safety-corrected) |
-| `quality/` | Judge scores, retrieval test results, audit reports |
-| `agent/` | `retrieve_agronomy_knowledge.py` — the RAG tool |
-| `docs/` | Full pipeline documentation |
+1. **Updated README.md** (for GitHub/public)
+2. **Updated AGROMIND_PIPELINE_DOCUMENTATION.md** (for team/internal)
 
 ---
 
-## Quick start — running the agent (Phase 8)
+## Updated README.md
+
+```markdown
+# Agro-Mind RAG Knowledge Base v3
+
+**LangChain-powered** bilingual (Chinese + English) RAG system for agricultural products. Powers the Agro-Mind autonomous customer support agent with verified, hallucination-free product knowledge across 114 agricultural products.
+
+---
+
+## What's New in v3
+
+| Change | Reason |
+|--------|--------|
+| **LangChain integration** | Standardize agent tools, simplify ChromaDB operations |
+| **Ollama BGE-M3 embeddings** | Local embeddings (1024 dims) - no OpenAI API cost |
+| **Custom embedding wrapper** | Makes Ollama work seamlessly with LangChain |
+| **Hybrid search** | Exact product ID + vector similarity |
+| **Qwen2.5 local inference** | Fully offline agent after setup |
+
+---
+
+## Architecture Overview
+
+```
+User Query
+    ↓
+LangChain Agent
+    ↓
+RAG Tool (LangChain-compatible)
+    ↓
+AgroMindRetriever (hybrid: exact + vector)
+    ↓
+ChromaDB (LangChain wrapper + Ollama embeddings)
+    ↓
+Qwen2.5-7B-Instruct (local via Ollama)
+    ↓
+Response with citations
+```
+
+---
+
+## Quick Start
 
 ### Prerequisites
 
-**1. Install Ollama and pull the agent model (local, one-time)**
+**1. Install Ollama and pull models**
 ```bash
-# Download Ollama from ollama.com — one-click installer
-ollama pull qwen2.5:7b-instruct
-ollama serve   # keep this running in the background
+# Download from ollama.com
+ollama pull bge-m3           # Embedding model (1024 dims)
+ollama pull qwen2.5:7b-instruct  # Agent model
+ollama serve                  # Keep running
 ```
 
-**2. Add these 4 secrets to your Colab account (left sidebar → key icon)**
-```
-OPENAI_API_KEY    your OpenAI key
-GOOGLE_API_KEY    your Google AI key
-GCP_PROJECT       gen-lang-client-0396125347
-GCS_BUCKET        agromind-ohoud-2026
+**2. Install Python dependencies**
+```bash
+pip install chromadb ollama langchain langchain-chroma langchain-ollama pydantic pyyaml
 ```
 
-**3. Get access to the shared Google Drive folder (ask team lead)**
-ChromaDB lives here — NOT in the repo.
-
-### Steps
-
+**3. Get the data** (from team shared drive)
 ```
-1. Clone this repo
-2. Open notebooks/notebook_08_agent.ipynb in Google Colab
-3. Mount Google Drive when prompted (ChromaDB loads automatically)
-4. Upload agent/retrieve_agronomy_knowledge.py when prompted
-5. Run all cells
+data/clean_entities.json      # Product ground truth
+chromadb/                     # Pre-built vector database
 ```
 
-### VS Code (local)
-```
-1. Complete Ollama setup above
-2. Download ChromaDB zip from shared Drive, extract locally
-3. Update CHROMA_PATH in notebook to your local path:
-   CHROMA_PATH = 'C:/Users/yourname/agromind/chromadb'
-4. Open notebook_08_agent.ipynb in VS Code
-5. Run all cells
-```
-
----
-
-## Using the RAG tool in your own notebook
-
-Your notebook only needs one file: `agent/retrieve_agronomy_knowledge.py`
+### Run the Agent
 
 ```python
-from retrieve_agronomy_knowledge import retrieve_agronomy_knowledge
+from src.retrieval_tool import AgroMindRetriever, create_rag_tool
+from langchain_ollama import ChatOllama
+from langchain.agents import initialize_agent
 
-# Disease query
-results = retrieve_agronomy_knowledge(
-    query="what treats root rot in citrus",
-    query_type="disease",
-    n_results=3
+# Initialize
+retriever = AgroMindRetriever()
+rag_tool = create_rag_tool(retriever)
+llm = ChatOllama(model="qwen2.5:7b-instruct", temperature=0.1)
+
+# Create agent
+agent = initialize_agent(
+    tools=[rag_tool],
+    llm=llm,
+    agent="zero-shot-react-description",
+    verbose=True
 )
 
-# Chinese query
-results = retrieve_agronomy_knowledge(
-    query="柑橘叶片发黄怎么处理",
-    query_type="chinese",
-    n_results=3
-)
-
-# Each result contains:
-# result["product_id"]      e.g. "AF0001"
-# result["product_name"]    e.g. "Citrus Junliqing"
-# result["product_name_cn"] e.g. "柑橘菌立清"
-# result["document"]        full product document text
-# result["distance"]        similarity score (lower = more relevant)
-```
-
-**Query types:** `disease` · `pest` · `ingredient` · `crop` · `symptom` ·
-`dosage` · `safety` · `product_name` · `chinese` · `general`
-
----
-
-## Infrastructure
-
-| Resource | Location |
-|---|---|
-| ChromaDB vector store | Google Drive: `/MyDrive/agromind/chromadb/` |
-| Embedding model | `text-embedding-3-large` (3072 dims) — must match at query time |
-| Agent model | Qwen2.5-7B-Instruct via Ollama (local) |
-| Fine-tuned model | `projects/548742106129/locations/us-central1/models/6556995316602634240@1` |
-| GCS training data | `gs://agromind-ohoud-2026/agromind/training/` |
-
----
-
-> **Important:** The Gemini fine-tuned model is for **evaluation only**.
-> The agent runs locally on Qwen2.5-7B-Instruct via Ollama.
-> Use the tuned model to compare response quality against the Qwen baseline
-> during testing — not as the production agent model.
-
-## Pipeline summary
-
-```
-Phase 1  Translation        产品目录.xlsx → ProductCatalog_TRANSLATED_v2.xlsx
-Phase 2  Entity extraction  → product_entities_v2.json              gpt-5.4-mini
-Phase 3  Normalization      → product_entities_normalized_v2.json   free
-Phase 4  Retrieval docs     → structured + full bilingual docs       free
-Phase 5  AI-as-Judge        structured avg 10.0 · full avg 8.97     gpt-5.4
-Phase 6  Embedding          → ChromaDB (2 collections)              $0.07
-Phase 7  Retrieval testing  top-1 73% · top-3 96% · top-5 100%
-Phase 8  Agent              RAG + Qwen local + safety escalation
-FT       Fine-tuning        234 examples → agromind-support-agent-v2 (SUCCEEDED)
+# Query
+response = agent.run("What treats citrus root rot?")
 ```
 
 ---
 
-## Quality metrics
+## Using the Retriever Directly
+
+```python
+from src.retrieval_tool import AgroMindRetriever
+
+retriever = AgroMindRetriever()
+
+# Search by text
+results = retriever.search("root rot citrus", k=3)
+for doc, score in results:
+    print(f"{doc.metadata['product_id']}: {doc.metadata['name_cn']} ({score:.2f})")
+
+# Search by disease
+results = retriever.search_by_disease("炭疽病")  # Anthracnose
+
+# Get product by ID
+product = retriever.get_product_info("AF0001")
+print(product['name_cn'], product['target_diseases'])
+
+# Search by ingredient
+results = retriever.search_by_ingredient("copper hydroxide")
+
+# Search by crop
+results = retriever.search_by_crop("citrus")
+```
+
+---
+
+## Project Structure
+
+```
+agromind-v3/
+├── src/
+│   ├── __init__.py
+│   ├── config.py              # Configuration loader
+│   ├── embeddings.py          # Ollama → LangChain wrapper
+│   └── retrieval_tool.py      # Main retriever (USE THIS)
+├── scripts/
+│   ├── rebuild_db.py          # Build ChromaDB from entities
+│   └── eval_retrieval.py      # Test retrieval quality
+├── data/
+│   └── clean_entities.json    # Product ground truth (NOT in git)
+├── chromadb/                  # Vector store (NOT in git)
+├── config.yaml                # Model paths & thresholds
+├── test_embedding.py          # Verify Ollama works
+└── GUIDE_FOR_TEAM.md          # Detailed team guide
+```
+
+---
+
+## Key Features
+
+| Feature | Implementation |
+|---------|---------------|
+| **Hybrid search** | Exact ID match + vector similarity |
+| **Bilingual** | Chinese & English queries supported |
+| **Local embeddings** | BGE-M3 via Ollama (1024 dims) |
+| **Local inference** | Qwen2.5-7B via Ollama |
+| **LangChain tools** | Standard agent interface |
+| **Type-specific search** | disease, pest, ingredient, crop, symptom |
+
+---
+
+## Quality Metrics
 
 | Metric | Value |
-|---|---|
-| Products in knowledge base | 114 |
-| Structured document quality | avg 10.0 / 10 |
-| Full document quality | avg 8.97 / 10 |
-| All docs pass threshold (≥7) | 114 / 114 |
-| Retrieval top-1 accuracy | 73.1% |
+|--------|-------|
+| Products | 114 |
+| Embedding dimensions | 1024 (BGE-M3) |
 | Retrieval top-3 accuracy | 96.2% |
-| Retrieval top-5 accuracy | 100% |
-| Fine-tuning examples | 234 (safety-corrected) |
-| Embedding dimensions | 3072 |
+| Hybrid search | Exact ID + vector |
+| Query types | 10 (disease, pest, crop, etc.) |
 
 ---
 
-## Safety design
+## Files to Git vs Ignore
 
-- **Pesticide ingestion** → 120 emergency response, skip product info
-- **Self-harm / suicidal ideation** → hotline 400-161-9995, human escalation
-- **Livestock/pet ingestion** → vet contact
-- **Harvest interval** → always 7 days minimum, never unverified "safe to eat"
-
----
-
-## Known data limitations
-
-6 products (AF0014, AF0017, AF0026, AF0029, AF0030, AF0035) have no active
-ingredient data — client source had blank cells with no recoverable information.
-Preserved as honest nulls.
-
-9 PN pesticide products have ingredient name conflicts flagged for client
-review. Details in `quality/judge_results_full_v2.json`.
-
----
-
-## Repo structure
-
+### ✅ Commit to GitHub:
 ```
-agromind-rag/
-├── notebooks/
-│   ├── notebook_01_translation.ipynb
-│   ├── notebook_02_entity_extraction.ipynb
-│   ├── notebook_03_normalization.ipynb
-│   ├── notebook_04_retrieval_docs.ipynb
-│   ├── notebook_05_judge.ipynb
-│   ├── notebook_06_embedding.ipynb
-│   ├── notebook_07_retrieval_testing.ipynb
-│   ├── notebook_08_agent.ipynb
-│   └── notebook_ft_gemini_v2.ipynb
-├── data/
-│   ├── entities/
-│   │   ├── product_entities_normalized_v2.json
-│   │   └── product_entities_normalized_v2.csv
-│   ├── retrieval_docs/
-│   │   ├── retrieval_documents_structured_v2.json
-│   │   └── retrieval_documents_full_v2.json
-│   └── finetuning/
-│       ├── agromind_training_v2.jsonl
-│       └── agromind_training_gemini_v2.jsonl
-├── quality/
-│   ├── audit_report.json
-│   ├── judge_summary_v2.json
-│   ├── judge_results_structured_v2.json
-│   ├── judge_results_full_v2.json
-│   ├── retrieval_test_results_v2.json
-│   ├── embedding_log_v2.json
-│   ├── fine_tuning_summary.json
-│   └── gemini_tuning_job_v2.json
-├── agent/
-│   └── retrieve_agronomy_knowledge.py
-├── docs/
-│   └── AGROMIND_PIPELINE_DOCUMENTATION.md
-├── .gitignore
-└── README.md
+src/*.py
+scripts/*.py
+config.yaml
+requirements.txt
+README.md
+GUIDE_FOR_TEAM.md
+.gitignore
 ```
 
----
-
-## .gitignore
-
+### ❌ Never commit (.gitignore):
 ```
-*.xlsx
-*.xls
-chromadb/
-.env
+chromadb/          # Large + proprietary
+data/              # Product data
+.venv/             # Virtual environment
 __pycache__/
-*.pyc
-.DS_Store
+*.log
+.env
 ```
 
 ---
 
-*Built as part of the SDA Agentic AI Capstone — Agro-Mind Autonomous Support Agent*
+## Common Issues
+
+**"Ollama not running"**
+```bash
+ollama serve  # In separate terminal
+```
+
+**"Module not found"**
+```bash
+# Run from project root
+python -m src.retrieval_tool
+```
+
+**"Dimension mismatch"**
+```bash
+# Check config.yaml has:
+embedding.dimensions: 1024
+```
+
+---
+
+## Team Communication
+
+- **ChromaDB sharing**: Google Drive (restricted access, NOT public link)
+- **Model checkpoints**: Shared drive only
+- **Code updates**: Push to GitHub, teammates pull
+
+---
+
+## Next Steps After Setup
+
+1. Verify Ollama: `python test_embedding.py`
+2. Test retriever: `python -m src.retrieval_tool`
+3. Build agent: Use `create_rag_tool()` in your LangChain agent
+4. Add custom tools: Weather, pest alerts, calculator
+
+---
+
+*Built as part of SDA Agentic AI Capstone — Agro-Mind Autonomous Customer Support Agent*
+```
