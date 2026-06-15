@@ -4,10 +4,6 @@ Perfect! I understand now. You need to **update the documentation** to reflect t
 2. **Updated AGROMIND_PIPELINE_DOCUMENTATION.md** (for team/internal)
 
 ---
-
-## Updated README.md
-
-```markdown
 # Agro-Mind RAG Knowledge Base v3
 
 **LangChain-powered** bilingual (Chinese + English) RAG system for agricultural products. Powers the Agro-Mind autonomous customer support agent with verified, hallucination-free product knowledge across 114 agricultural products.
@@ -17,7 +13,7 @@ Perfect! I understand now. You need to **update the documentation** to reflect t
 ## What's New in v3
 
 | Change | Reason |
-|--------|--------|
+|---|---|
 | **LangChain integration** | Standardize agent tools, simplify ChromaDB operations |
 | **Ollama BGE-M3 embeddings** | Local embeddings (1024 dims) - no OpenAI API cost |
 | **Custom embedding wrapper** | Makes Ollama work seamlessly with LangChain |
@@ -28,19 +24,33 @@ Perfect! I understand now. You need to **update the documentation** to reflect t
 
 ## Architecture Overview
 
+
+---
 ```
 User Query
+
     ↓
+
 LangChain Agent
+
     ↓
+
 RAG Tool (LangChain-compatible)
+
     ↓
+
 AgroMindRetriever (hybrid: exact + vector)
+
     ↓
+
 ChromaDB (LangChain wrapper + Ollama embeddings)
+
     ↓
+
 Qwen2.5-7B-Instruct (local via Ollama)
+
     ↓
+
 Response with citations
 ```
 
