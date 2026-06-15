@@ -1,4 +1,3 @@
-Perfect! I understand now. You need to **update the documentation** to reflect the **LangChain-based architecture** (not the original raw ChromaDB approach). Let me provide you with:
 
 1. **Updated README.md** (for GitHub/public)
 2. **Updated AGROMIND_PIPELINE_DOCUMENTATION.md** (for team/internal)
