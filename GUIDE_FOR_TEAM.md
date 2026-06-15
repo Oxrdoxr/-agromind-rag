@@ -26,14 +26,14 @@
 
 ## What This Guide Covers
 
-This guide helps team members:
-- Set up the Agro-Mind RAG system on their machine
-- Use the retriever in their own code
-- Build LangChain agents with the RAG tool
-- Add new tools (weather, pest alerts, calculators)
-- Troubleshoot common issues
+This guide helps the team:
+- Install and configure Agro-Mind locally
+- Use the custom retriever in your own code
+- Build and run LangChain agents with the RAG tool
+- Add and test new tools (weather, pest alerts, calculators)
+- Diagnose and fix common issues
 
-**Prerequisites:** Basic Python, virtual environments, and LangChain familiarity.
+**Prerequisites:** Python 3.11+, virtual environments, and LangChain familiarity.
 
 ---
 
@@ -42,19 +42,19 @@ This guide helps team members:
 ### Architecture
 ```
 User Query
-    ↓
+  ↓
 LangChain Agent
-    ↓
-RAG Tool (create_rag_tool)
-    ↓
+  ↓
+RAG Tool (`create_rag_tool`)
+  ↓
 AgroMindRetriever
-    ├── Exact ID lookup (product_id, disease name)
-    └── Vector search (BGE-M3 embeddings)
-    ↓
-ChromaDB (local, 114 products)
-    ↓
+     ├─ Exact-match lookup (product_id, disease name)
+     └─ Vector search (BGE-M3 embeddings)
+  ↓
+ChromaDB (local, ~114 products)
+  ↓
 Qwen2.5-7B-Instruct (local via Ollama)
-    ↓
+  ↓
 Response with citations
 ```
 
@@ -62,24 +62,24 @@ Response with citations
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| **Retriever** | Custom `AgroMindRetriever` | Hybrid search (exact + vector) |
-| **Embeddings** | BGE-M3 via Ollama (1024 dims) | Convert text to vectors |
-| **Vector DB** | ChromaDB (LangChain wrapper) | Store product embeddings |
-| **LLM** | Qwen2.5-7B-Instruct | Generate answers |
-| **Agent** | LangChain `initialize_agent` | Orchestrate tools |
-| **Data** | `clean_entities.json` | Product ground truth |
+| Retriever | Custom `AgroMindRetriever` | Hybrid exact + semantic search |
+| Embeddings | BGE-M3 via Ollama | Convert text to vectors |
+| Vector DB | ChromaDB | Local embedding store |
+| LLM | Qwen2.5-7B-Instruct | Generate answers |
+| Agent | LangChain `initialize_agent` | Orchestrate tools |
+| Data | `clean_entities.json` | Product and disease ground truth |
 
 ---
 
 ## Initial Setup (One-Time)
 
-### Step 1: Clone Repository
+### Step 1: Clone the repository
 ```bash
 git clone https://github.com/your-org/agromind-v3.git
 cd agromind-v3
 ```
 
-### Step 2: Create Virtual Environment
+### Step 2: Create a virtual environment
 ```bash
 # Windows
 python -m venv .venv
@@ -90,9 +90,14 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### Step 3: Install Dependencies
+### Step 3: Install dependencies
 ```bash
 pip install chromadb ollama langchain langchain-chroma langchain-ollama pydantic pyyaml
+```
+
+If a `requirements.txt` file is available, prefer:
+```bash
+pip install -r requirements.txt
 ```
 
 ### Step 4: Install Ollama
