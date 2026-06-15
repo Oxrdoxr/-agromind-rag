@@ -1,4 +1,3 @@
-Here's the complete `GUIDE_FOR_TEAM.md` file for your team members:
 
 ```markdown
 # Agro-Mind RAG System - Team Guide
