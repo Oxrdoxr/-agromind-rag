@@ -1,5 +1,4 @@
 
-```markdown
 # Agro-Mind RAG System - Team Guide
 
 **Version:** 3.0 (LangChain + Local Ollama)  
@@ -40,34 +39,45 @@ This guide helps the team:
 ## System Overview
 
 ### Architecture
-```
 User Query
+
   ↓
+
 LangChain Agent
+
   ↓
+
 RAG Tool (`create_rag_tool`)
+
   ↓
+
 AgroMindRetriever
      ├─ Exact-match lookup (product_id, disease name)
      └─ Vector search (BGE-M3 embeddings)
+
   ↓
+
 ChromaDB (local, ~114 products)
+
   ↓
+
 Qwen2.5-7B-Instruct (local via Ollama)
+
   ↓
+  
 Response with citations
 ```
 
 ### Key Components
 
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| Retriever | Custom `AgroMindRetriever` | Hybrid exact + semantic search |
-| Embeddings | BGE-M3 via Ollama | Convert text to vectors |
-| Vector DB | ChromaDB | Local embedding store |
-| LLM | Qwen2.5-7B-Instruct | Generate answers |
-| Agent | LangChain `initialize_agent` | Orchestrate tools |
-| Data | `clean_entities.json` | Product and disease ground truth |
+| Component | Technology | Purpose | Notes |
+|-----------|-----------|---------|-------|
+| Retriever | Custom `AgroMindRetriever` | Hybrid exact + semantic search | Exact-match for IDs + semantic for descriptions |
+| Embeddings | BGE-M3 via Ollama | Convert text to vectors | Use Ollama local server |
+| Vector DB | ChromaDB | Local embedding store | ~114 product vectors stored |
+| LLM | Qwen2.5-7B-Instruct | Generate answers | Runs locally via Ollama |
+| Agent | LangChain `initialize_agent` | Orchestrate tools | Supports tool-based retrieval flow |
+| Data | `clean_entities.json` | Product and disease ground truth | Source of canonical entities |
 
 ---
 
