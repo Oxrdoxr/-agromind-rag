@@ -6,14 +6,15 @@ Import: from src.config import config
 
 from pathlib import Path
 from functools import lru_cache
+import os
 from typing import Optional
 import yaml
 from pydantic import BaseModel
-# In load_config(), add environment variable loading
-import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Load .env file
+# Load .env file
+load_dotenv()
+
 
 # ── Sub-models ────────────────────────────────────────────────────────────────
 
@@ -59,13 +60,8 @@ class LangSmithConfig(BaseModel):
     project: str
     endpoint: str = "https://api.smith.langchain.com"
     tracing_enabled: bool = True
-    api_key: Optional[str] = None  # Load from env
+    api_key: Optional[str] = None
 
-
-
-# After creating config, override with env
-if os.getenv("LANGSMITH_API_KEY"):
-    config.langsmith.api_key = os.getenv("LANGSMITH_API_KEY")
 
 class AgroMindConfig(BaseModel):
     llm: LLMConfig
@@ -113,7 +109,18 @@ def load_config() -> AgroMindConfig:
     with open(config_path, encoding="utf-8") as f:
         raw = yaml.safe_load(f)
 
-    return AgroMindConfig(**raw)
+    config = AgroMindConfig(**raw)
+    
+    # Override LangSmith API key from environment if available
+    api_key = os.getenv("LANGSMITH_API_KEY")
+    if api_key:
+        config.langsmith.api_key = api_key
+    
+    # Override tracing from environment
+    tracing = os.getenv("LANGSMITH_TRACING", "true").lower() == "true"
+    config.langsmith.tracing_enabled = tracing
+    
+    return config
 
 
 # ── Singleton ─────────────────────────────────────────────────────────────────
@@ -131,4 +138,8 @@ if __name__ == "__main__":
     print(f"Top-K:     {config.retrieval.top_k}")
     print(f"Threshold: {config.retrieval.confidence_threshold}")
     print(f"Project:   {config.langsmith.project}")
+    if config.langsmith.api_key:
+        print(f"LangSmith: ✅ API key loaded")
+    else:
+        print(f"LangSmith: ⚠️ No API key (set LANGSMITH_API_KEY in .env)")
     print("Config loaded successfully.")

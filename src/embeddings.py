@@ -3,11 +3,18 @@ Embedding wrapper that makes Ollama look like OpenAI to ChromaDB.
 ChromaDB calls this, we forward to Ollama, translate response.
 """
 
+import sys
+from pathlib import Path
 from typing import List
 from unittest.mock import Mock
 import requests
-from chromadb.api.types import EmbeddingFunction
 
+# Add parent directory to path if running directly
+if __name__ == "__main__":
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from chromadb.api.types import EmbeddingFunction
+from langchain_core.embeddings import Embeddings
 from src.config import config
 
 
@@ -35,15 +42,10 @@ class OllamaEmbeddingFunction(EmbeddingFunction):
         Returns:
             List of embedding vectors
         """
-        # Determine if this is a query or document based on context
-        # ChromaDB doesn't tell us, so we assume documents during indexing
-        # For queries, you'll call .embed_query() separately
-        prefix = self.doc_prefix
-        
         embeddings = []
         for text in input:
-            # Add the appropriate prefix
-            prefixed_text = prefix + text
+            # Add the document prefix
+            prefixed_text = self.doc_prefix + text
             
             # Call Ollama
             response = requests.post(
@@ -98,10 +100,10 @@ class OllamaEmbeddingFunction(EmbeddingFunction):
         return embedding
 
 
-class OpenAICompatibleEmbeddingFunction(EmbeddingFunction):
+class OllamaEmbeddingsWrapper(Embeddings):
     """
-    Alternative: Makes Ollama look EXACTLY like OpenAI API.
-    Use this if ChromaDB is configured for OpenAI and you can't change it.
+    LangChain-compatible wrapper for Ollama embeddings.
+    This makes your working Ollama function work with LangChain.
     """
     
     def __init__(self):
@@ -109,49 +111,59 @@ class OpenAICompatibleEmbeddingFunction(EmbeddingFunction):
         self.dimensions = config.embedding.dimensions
         self.query_prefix = config.embedding.query_prefix
         self.doc_prefix = config.embedding.doc_prefix
-        
-        # Create a mock OpenAI client that actually calls Ollama
-        self.client = Mock()
-        self.client.embeddings.create = self._mock_embed_create
+        self.ollama_url = "http://localhost:11434/api/embeddings"
     
-    def _mock_embed_create(self, model: str, input: List[str]):
-        """Pretend to be OpenAI's embeddings.create method."""
-        # This returns a mock object that ChromaDB will interrogate
-        mock_response = Mock()
-        mock_response.data = []
-        
-        for i, text in enumerate(input):
-            # Call Ollama for each text
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        """
+        LangChain calls this for documents.
+        Returns list of embeddings.
+        """
+        embeddings = []
+        for text in texts:
             prefixed_text = self.doc_prefix + text
             response = requests.post(
-                "http://localhost:11434/api/embeddings",
+                self.ollama_url,
                 json={"model": self.model, "prompt": prefixed_text},
                 timeout=30
             )
             response.raise_for_status()
             embedding = response.json()["embedding"]
             
-            # Create mock embedding object
-            mock_embedding = Mock()
-            mock_embedding.embedding = embedding
-            mock_embedding.index = i
-            mock_response.data.append(mock_embedding)
+            if len(embedding) != self.dimensions:
+                raise ValueError(
+                    f"Expected {self.dimensions} dimensions, "
+                    f"got {len(embedding)} from {self.model}"
+                )
+            embeddings.append(embedding)
         
-        return mock_response
-    
-    def __call__(self, input: List[str]) -> List[List[float]]:
-        """ChromaDB calls this - use the mock OpenAI client."""
-        response = self.client.embeddings.create(
-            model=self.model,
-            input=input
-        )
-        # Extract embeddings in order
-        embeddings = [item.embedding for item in sorted(response.data, key=lambda x: x.index)]
         return embeddings
+    
+    def embed_query(self, text: str) -> List[float]:
+        """
+        LangChain calls this for queries.
+        Returns a single embedding.
+        """
+        prefixed_text = self.query_prefix + text
+        response = requests.post(
+            self.ollama_url,
+            json={"model": self.model, "prompt": prefixed_text},
+            timeout=30
+        )
+        response.raise_for_status()
+        embedding = response.json()["embedding"]
+        
+        if len(embedding) != self.dimensions:
+            raise ValueError(
+                f"Expected {self.dimensions} dimensions, "
+                f"got {len(embedding)} from {self.model}"
+            )
+        
+        return embedding
 
 
-# Singleton instance
+# Singleton instances
 ollama_embeddings = OllamaEmbeddingFunction()
+ollama_wrapper = OllamaEmbeddingsWrapper()
 
 
 # Helper function for direct use (outside ChromaDB)
@@ -169,7 +181,6 @@ def get_embedding(text: str, for_query: bool = False) -> List[float]:
     if for_query:
         return ollama_embeddings.embed_query(text)
     else:
-        # Call __call__ with single item list
         return ollama_embeddings([text])[0]
 
 
@@ -193,5 +204,9 @@ if __name__ == "__main__":
     ]
     batch_embeddings = ollama_embeddings(batch_input)
     print(f"✅ Batch embeddings: {len(batch_embeddings)} texts → {len(batch_embeddings[0])} dims each")
+    
+    # Test 4: LangChain wrapper
+    wrapper_embeddings = ollama_wrapper.embed_documents(batch_input)
+    print(f"✅ LangChain wrapper: {len(wrapper_embeddings)} texts → {len(wrapper_embeddings[0])} dims each")
     
     print("\n✅ Wrapper works! Ready to use with ChromaDB")
