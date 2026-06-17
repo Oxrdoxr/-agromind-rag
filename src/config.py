@@ -18,6 +18,10 @@ load_dotenv()
 
 # ── Sub-models ────────────────────────────────────────────────────────────────
 
+class ImageConfig(BaseModel):
+    model: str
+    normalize: bool = True
+
 class LLMConfig(BaseModel):
     provider: str
     model: str
@@ -31,6 +35,7 @@ class EmbeddingConfig(BaseModel):
     dimensions: int
     query_prefix: str
     doc_prefix: str
+    normalize: bool = True
 
 
 class RetrievalConfig(BaseModel):
@@ -48,6 +53,7 @@ class PathsConfig(BaseModel):
     data: str
     logs: str
     escalations_log: str
+    image_cache: str
 
 
 class AgentConfig(BaseModel):
@@ -66,6 +72,7 @@ class LangSmithConfig(BaseModel):
 class AgroMindConfig(BaseModel):
     llm: LLMConfig
     embedding: EmbeddingConfig
+    image: ImageConfig
     retrieval: RetrievalConfig
     paths: PathsConfig
     agent: AgentConfig

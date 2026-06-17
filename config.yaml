@@ -13,9 +13,13 @@ embedding:
   doc_prefix: "Represent this document for retrieval: "  # ← CHANGED
   normalize: true  # ← NEW
 
+image:
+  model: "ViT-B/32"
+  normalize: true
+
 retrieval:
   structured_collection: "agromind_structured_v4"
-  full_collection: "agromind_full_v4"
+  full_collection: "agromind_full_v4"     # ← Text + Image
   image_collection: "agromind_images_v4"  # ← KEEP but don't implement yet
   top_k: 5
   confidence_threshold: 0.85
@@ -41,10 +45,12 @@ agent:
   # ← NEW: multimodal toggle
   multimodal:
     enabled: false  # set to true when ready
-    image_model: "clip-vit-base-patch32"  # or "blip-base"
+    image_model: "ViT-B/32"  # or "blip-base"
 
 langsmith:
   project: "agromind-local"
   endpoint: "https://api.smith.langchain.com"
   tracing_enabled: true
    # API key goes in .env as LANGCHAIN_API_KEY
+ollama:
+  base_url: "http://localhost:11434"
