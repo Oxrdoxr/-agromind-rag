@@ -1,0 +1,4620 @@
+[
+  {
+    "product_id": "AF0001",
+    "name_cn": "柑橘菌立清",
+    "name_en": "Citrus Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "柑橘",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "根腐病",
+      "霜霉病",
+      "灰霉病",
+      "紫斑病",
+      "炭疽病",
+      "叶斑病",
+      "枯萎病",
+      "猝倒病",
+      "软腐病",
+      "姜瘟病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "干尖",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:18:58.251819+00:00"
+  },
+  {
+    "product_id": "AF0002",
+    "name_cn": "葱姜蒜菌立清",
+    "name_en": "Onion-Ginger-Garlic Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "大葱",
+      "生姜",
+      "大蒜",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "根腐病",
+      "霜霉病",
+      "灰霉病",
+      "紫斑病",
+      "炭疽病",
+      "叶斑病",
+      "枯萎病",
+      "猝倒病",
+      "软腐病",
+      "姜瘟病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "干尖",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:02.347259+00:00"
+  },
+  {
+    "product_id": "AF0003",
+    "name_cn": "水稻菌立清",
+    "name_en": "Rice Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "水稻",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "菌核病",
+      "霜霉病",
+      "白粉病",
+      "炭疽病",
+      "根肿病",
+      "根腐病",
+      "枯萎病",
+      "猝倒病",
+      "黑腐病",
+      "青枯病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:05.643604+00:00"
+  },
+  {
+    "product_id": "AF0004",
+    "name_cn": "白菜甘蓝防腐包心剂",
+    "name_en": "Cabbage & Kale Anti-rot Head-forming Agent",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶",
+      "白菜",
+      "甘蓝"
+    ],
+    "target_diseases": [
+      "心叶腐烂",
+      "干烧心",
+      "软腐病",
+      "黑腐病",
+      "霜霉病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "小叶",
+      "卷叶",
+      "僵苗"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:08.297244+00:00"
+  },
+  {
+    "product_id": "AF0005",
+    "name_cn": "草莓菌立清",
+    "name_en": "Strawberry Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "草莓",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "根腐病",
+      "霜霉病",
+      "灰霉病",
+      "紫斑病",
+      "炭疽病",
+      "叶斑病",
+      "枯萎病",
+      "猝倒病",
+      "软腐病",
+      "姜瘟病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "干尖",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:11.028407+00:00"
+  },
+  {
+    "product_id": "AF0006",
+    "name_cn": "菌立清",
+    "name_en": "Bacteria Clear (Universal)",
+    "target_crops": [
+      "辣椒",
+      "果树",
+      "瓜果",
+      "蔬菜",
+      "大田"
+    ],
+    "target_diseases": [
+      "疫病",
+      "炭疽病",
+      "灰霉病",
+      "白粉病",
+      "霜霉病",
+      "蔓枯病",
+      "根腐病",
+      "猝倒病",
+      "立枯病",
+      "青枯病",
+      "软腐病",
+      "角斑病",
+      "溃疡病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "花叶",
+      "卷叶",
+      "皱缩",
+      "矮化",
+      "落花",
+      "落果"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:14.814865+00:00"
+  },
+  {
+    "product_id": "AF0007",
+    "name_cn": "辣椒菌立清",
+    "name_en": "Chili Pepper Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "疫病",
+      "炭疽病",
+      "灰霉病",
+      "白粉病",
+      "霜霉病",
+      "蔓枯病",
+      "根腐病",
+      "猝倒病",
+      "立枯病",
+      "青枯病",
+      "软腐病",
+      "角斑病",
+      "溃疡病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "花叶",
+      "卷叶",
+      "皱缩",
+      "矮化",
+      "落花落果"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:19.273008+00:00"
+  },
+  {
+    "product_id": "AF0008",
+    "name_cn": "黄瓜菌立清",
+    "name_en": "Cucumber Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "黄瓜",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "根腐病",
+      "霜霉病",
+      "灰霉病",
+      "紫斑病",
+      "炭疽病",
+      "叶斑病",
+      "枯萎病",
+      "猝倒病",
+      "软腐病",
+      "姜瘟病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "干尖",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:23.132282+00:00"
+  },
+  {
+    "product_id": "AF0009",
+    "name_cn": "袋装菌立清",
+    "name_en": "Bacteria Clear (Sachet)",
+    "target_crops": [
+      "辣椒",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "疫病",
+      "炭疽病",
+      "灰霉病",
+      "白粉病",
+      "霜霉病",
+      "蔓枯病",
+      "根腐病",
+      "猝倒病",
+      "立枯病",
+      "青枯病",
+      "软腐病",
+      "角斑病",
+      "溃疡病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "有效活菌数≥2亿/ml"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "花叶",
+      "卷叶",
+      "皱缩",
+      "矮化",
+      "落花",
+      "落果"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:27.064545+00:00"
+  },
+  {
+    "product_id": "AF0010",
+    "name_cn": "清满园",
+    "name_en": "Garden Full Clear",
+    "target_crops": [
+      "辣椒",
+      "果树",
+      "蔬菜",
+      "经济作物",
+      "园艺植物"
+    ],
+    "target_diseases": [
+      "溃疡病",
+      "流胶病",
+      "黑斑病",
+      "腐烂病"
+    ],
+    "target_pests": [
+      "红蜘蛛",
+      "蚜虫"
+    ],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "抗寒",
+      "防冻",
+      "抗倒春寒"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:29.697803+00:00"
+  },
+  {
+    "product_id": "AF0011",
+    "name_cn": "油菜菌立清",
+    "name_en": "Rapeseed Bacteria Clear",
+    "target_crops": [
+      "辣椒",
+      "油菜",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "菌核病",
+      "霜霉病",
+      "白粉病",
+      "炭疽病",
+      "根肿病",
+      "根腐病",
+      "枯萎病",
+      "猝倒病",
+      "黑腐病",
+      "青枯病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "花叶",
+      "矮化"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:33.974026+00:00"
+  },
+  {
+    "product_id": "AF0012",
+    "name_cn": "根线清(菌剂)",
+    "name_en": "Root Nematode Clear (Microbial Agent)",
+    "target_crops": [
+      "辣椒",
+      "苹果",
+      "樱桃",
+      "荔枝",
+      "草莓",
+      "西瓜",
+      "黄瓜",
+      "南瓜",
+      "丝瓜",
+      "番茄",
+      "茄子",
+      "豆角",
+      "水稻",
+      "小麦",
+      "玉米",
+      "棉花",
+      "大豆"
+    ],
+    "target_diseases": [
+      "根腐",
+      "茎腐",
+      "姜瘟",
+      "枯黄萎",
+      "立枯"
+    ],
+    "target_pests": [
+      "根结线虫",
+      "胞囊线虫",
+      "茎线虫"
+    ],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "死棵",
+      "烂根",
+      "红根",
+      "黑根"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:37.275358+00:00"
+  },
+  {
+    "product_id": "AF0013",
+    "name_cn": "柑橘专用水溶肥",
+    "name_en": "Citrus Water-Soluble Fertilizer",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca100g/L"
+    ],
+    "symptoms_addressed": [
+      "裂果",
+      "畸形果",
+      "浮皮果",
+      "生理落果",
+      "异常落果"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:39.631586+00:00"
+  },
+  {
+    "product_id": "AF0014",
+    "name_cn": "白菜甘蓝水溶肥",
+    "name_en": "Cabbage & Kale Water-Soluble Fertilizer",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "猝倒",
+      "立枯"
+    ],
+    "target_pests": [],
+    "active_ingredients": [],
+    "symptoms_addressed": [
+      "僵苗",
+      "弱苗",
+      "叶片浓绿肥厚",
+      "空心",
+      "裂球"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": false,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:42.968537+00:00"
+  },
+  {
+    "product_id": "AF0015",
+    "name_cn": "葱姜蒜水溶肥",
+    "name_en": "Onion-Ginger-Garlic Water-Soluble Fertilizer",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "缓苗慢",
+      "死苗烂根",
+      "长势弱",
+      "黄叶干尖",
+      "空心",
+      "裂球",
+      "小瓣",
+      "畸形"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:47.361980+00:00"
+  },
+  {
+    "product_id": "AF0016",
+    "name_cn": "猛生根",
+    "name_en": "Vigorous Root Growth",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "根腐病",
+      "寒根",
+      "烂根",
+      "沤根",
+      "黑根",
+      "僵苗",
+      "弱苗",
+      "黄苗"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：中量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "不生根",
+      "寒根",
+      "烂根",
+      "沤根",
+      "黑根",
+      "僵苗",
+      "弱苗",
+      "黄苗"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:51.122511+00:00"
+  },
+  {
+    "product_id": "AF0017",
+    "name_cn": "一喷绿",
+    "name_en": "One Spray Green",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "番茄",
+      "黄瓜",
+      "辣椒",
+      "茄子",
+      "月季",
+      "多肉",
+      "绿萝"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [],
+    "symptoms_addressed": [
+      "黄叶",
+      "小叶",
+      "卷叶",
+      "薄叶"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": false,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:53.508339+00:00"
+  },
+  {
+    "product_id": "AF0018",
+    "name_cn": "增瓜灵",
+    "name_en": "Melon Booster",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "叶片黄化",
+      "植株瘦弱"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:55.843045+00:00"
+  },
+  {
+    "product_id": "AF0019",
+    "name_cn": "地下根茎膨大素",
+    "name_en": "Underground Root & Tuber Enlarger",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄辣椒",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "空心",
+      "畸形",
+      "开裂"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:19:58.334494+00:00"
+  },
+  {
+    "product_id": "AF0020",
+    "name_cn": "番薯宝宝",
+    "name_en": "Sweet Potato Baby",
+    "target_crops": [
+      "油菜",
+      "花生",
+      "桃子",
+      "梨子",
+      "芒果",
+      "菠萝",
+      "橙子",
+      "苹果",
+      "香蕉",
+      "草莓",
+      "蓝莓",
+      "石榴",
+      "柠檬",
+      "荔枝",
+      "猕猴桃",
+      "火龙果",
+      "杨桃",
+      "山竹",
+      "哈密瓜",
+      "葫芦瓜",
+      "圣女果",
+      "黄瓜",
+      "青瓜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "苗期壮根壮苗",
+      "抑制地上部徒长",
+      "促进多分枝",
+      "减少无效营养消耗",
+      "增强植株抗逆能力",
+      "强化薯块表皮韧性",
+      "降低生理性裂果",
+      "降低空心率",
+      "降低畸形率"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:01.993751+00:00"
+  },
+  {
+    "product_id": "AF0021",
+    "name_cn": "防冻液",
+    "name_en": "Anti-Freeze Liquid",
+    "target_crops": [
+      "果树类作物",
+      "蔬菜类作物",
+      "花卉类作物",
+      "经济类作物",
+      "大田作物"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "冻害损伤",
+      "叶子变黄"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:03.893271+00:00"
+  },
+  {
+    "product_id": "AF0022",
+    "name_cn": "防落座果精",
+    "name_en": "Anti-Drop Fruit Setting Agent",
+    "target_crops": [
+      "油菜",
+      "花生",
+      "桃子",
+      "梨子",
+      "芒果",
+      "菠萝",
+      "苹果",
+      "香蕉",
+      "草莓",
+      "蓝莓",
+      "石榴",
+      "橙子",
+      "柠檬",
+      "荔枝",
+      "猕猴桃",
+      "火龙果",
+      "杨桃",
+      "山竹",
+      "哈密瓜",
+      "葫芦瓜",
+      "圣女果",
+      "黄瓜",
+      "青瓜"
+    ],
+    "target_diseases": [
+      "花期病害"
+    ],
+    "target_pests": [
+      "蚜虫",
+      "红蜘蛛"
+    ],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "畸形花",
+      "败育花",
+      "僵果",
+      "小果",
+      "畸形果",
+      "裂果"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:07.244562+00:00"
+  },
+  {
+    "product_id": "AF0023",
+    "name_cn": "黄金麦",
+    "name_en": "Golden Wheat",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "根系发达",
+      "须根增多",
+      "抗寒",
+      "抗旱",
+      "抗干热风",
+      "抗涝"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:09.393393+00:00"
+  },
+  {
+    "product_id": "AF0024",
+    "name_cn": "定根水",
+    "name_en": "Root Setting Water",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "脐腐病",
+      "裂果",
+      "叶片黄化"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "缓苗时间",
+      "生理性病害",
+      "环境胁迫"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:12.898393+00:00"
+  },
+  {
+    "product_id": "AF0025",
+    "name_cn": "提苗暴长液",
+    "name_en": "Seedling Rapid Growth Liquid",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶",
+      "大田作物",
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "黄瓜",
+      "茄子",
+      "月季",
+      "多肉",
+      "绿萝"
+    ],
+    "target_diseases": [
+      "根腐病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "僵苗",
+      "黄苗",
+      "弱苗",
+      "生长停滞"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:15.759840+00:00"
+  },
+  {
+    "product_id": "AF0026",
+    "name_cn": "茄子1号",
+    "name_en": "Eggplant No.1",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [
+      "病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [],
+    "symptoms_addressed": [
+      "卷叶",
+      "花叶",
+      "生长停滞"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": false,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:18.567212+00:00"
+  },
+  {
+    "product_id": "AF0027",
+    "name_cn": "水培宝",
+    "name_en": "Hydroponic Treasure",
+    "target_crops": [
+      "水培蔬菜",
+      "观叶水培",
+      "观花水培"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "缺素黄叶",
+      "小叶",
+      "僵苗",
+      "黑根",
+      "腐根",
+      "异味"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:20.293073+00:00"
+  },
+  {
+    "product_id": "AF0028",
+    "name_cn": "爆根999",
+    "name_en": "Root Explosion 999",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶",
+      "小麦",
+      "玉米",
+      "水稻",
+      "花生",
+      "柑橘",
+      "苹果",
+      "桃",
+      "葡萄",
+      "黄瓜",
+      "茄子",
+      "西瓜",
+      "甜瓜",
+      "哈密瓜",
+      "南瓜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：大量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "早衰",
+      "缺素症"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:24.367947+00:00"
+  },
+  {
+    "product_id": "AF0029",
+    "name_cn": "绿叶先锋",
+    "name_en": "Green Leaf Pioneer",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "西瓜",
+      "甜瓜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [],
+    "symptoms_addressed": [
+      "黄叶",
+      "小叶",
+      "卷叶",
+      "落叶"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": false,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:26.003610+00:00"
+  },
+  {
+    "product_id": "AF0030",
+    "name_cn": "催花座果",
+    "name_en": "Flower & Fruit Promoter",
+    "target_crops": [
+      "油菜",
+      "花生",
+      "桃子",
+      "梨子",
+      "芒果",
+      "菠萝",
+      "苹果",
+      "香蕉",
+      "草莓",
+      "蓝莓",
+      "石榴",
+      "橙子",
+      "柠檬",
+      "荔枝",
+      "猕猴桃",
+      "火龙果",
+      "杨桃",
+      "山竹",
+      "哈密瓜",
+      "葫芦瓜",
+      "圣女果",
+      "黄瓜",
+      "青瓜"
+    ],
+    "target_diseases": [
+      "花期病害"
+    ],
+    "target_pests": [
+      "苹果",
+      "樱桃",
+      "荔枝",
+      "草莓",
+      "西瓜",
+      "黄瓜",
+      "南瓜",
+      "丝瓜",
+      "番茄",
+      "辣椒",
+      "茄子",
+      "豆角",
+      "棉花",
+      "油菜",
+      "金银花",
+      "月季"
+    ],
+    "active_ingredients": [],
+    "symptoms_addressed": [
+      "畸形花",
+      "败育花",
+      "落花",
+      "落果",
+      "畸形果",
+      "裂果"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": false,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:30.595453+00:00"
+  },
+  {
+    "product_id": "AF0031",
+    "name_cn": "磷酸二氢钾",
+    "name_en": "Monopotassium Phosphate (MKP)",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "西瓜",
+      "甜瓜",
+      "玫瑰",
+      "月季",
+      "菊花",
+      "兰花"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：大量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "萎蔫"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:32.600231+00:00"
+  },
+  {
+    "product_id": "AF0033",
+    "name_cn": "免稀释营养液",
+    "name_en": "Ready-to-Use Nutrient Solution",
+    "target_crops": [
+      "室内外绿植",
+      "花卉",
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "番茄",
+      "黄瓜",
+      "辣椒",
+      "茄子",
+      "月季",
+      "多肉",
+      "绿萝"
+    ],
+    "target_diseases": [
+      "生理性病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "小叶",
+      "长势衰弱"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:35.079147+00:00"
+  },
+  {
+    "product_id": "AF0034",
+    "name_cn": "植物复活液",
+    "name_en": "Plant Revival Liquid",
+    "target_crops": [
+      "家庭园艺室内及室外各类植物",
+      "大田作物",
+      "果树类",
+      "蔬菜类",
+      "花卉苗木"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "氨基酸",
+      "腐植酸",
+      "微量元素",
+      "活性酶"
+    ],
+    "symptoms_addressed": [
+      "植株萎蔫",
+      "黄叶",
+      "烂根",
+      "生长停滞"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:37.076384+00:00"
+  },
+  {
+    "product_id": "AF0035",
+    "name_cn": "百菌灵",
+    "name_en": "Universal Fungicide Liquid",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "番茄",
+      "黄瓜",
+      "辣椒",
+      "茄子",
+      "月季",
+      "多肉",
+      "绿萝"
+    ],
+    "target_diseases": [
+      "白粉病",
+      "黑斑病",
+      "炭疽病",
+      "锈病",
+      "叶斑病",
+      "纹枯病",
+      "细菌性流胶病",
+      "溃疡病",
+      "穿孔病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "百菌灵"
+    ],
+    "symptoms_addressed": [
+      "叶片早衰"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "missing_ingredients",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:39.713272+00:00"
+  },
+  {
+    "product_id": "AF0036",
+    "name_cn": "植物营养液",
+    "name_en": "Plant Nutrient Solution",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "番茄",
+      "黄瓜",
+      "辣椒",
+      "茄子",
+      "月季",
+      "多肉",
+      "绿萝"
+    ],
+    "target_diseases": [
+      "裂果",
+      "畸形果",
+      "生理性病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：含中微量元素功能肥"
+    ],
+    "symptoms_addressed": [
+      "黄叶",
+      "小叶",
+      "长势衰弱"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:41.939538+00:00"
+  },
+  {
+    "product_id": "AF0037",
+    "name_cn": "菜虫灵",
+    "name_en": "Vegetable Pest Repellent (Caichongling)",
+    "target_crops": [
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蚜马",
+      "瓜蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "氟离子水。专用溶解剂。提高吸收利用率·增强药效。执行标准Q/460JXM 001-2025"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:44.183557+00:00"
+  },
+  {
+    "product_id": "AF0038",
+    "name_cn": "蚜虱清",
+    "name_en": "Aphid & Whitefly Clear",
+    "target_crops": [
+      "通用"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "天然植物提取物"
+    ],
+    "symptoms_addressed": [
+      "杀虫杀卵",
+      "不伤花果"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:46.372277+00:00"
+  },
+  {
+    "product_id": "AF0039",
+    "name_cn": "蜘蛛1号/蛛螨杀",
+    "name_en": "Spider Mite Killer No.1",
+    "target_crops": [
+      "果树",
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "红蜘蛛",
+      "螨虫",
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "中草药萃取物"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:49.145063+00:00"
+  },
+  {
+    "product_id": "AF0040",
+    "name_cn": "树竹草",
+    "name_en": "Tree-Bamboo-Grass Herbicide Adjuvant",
+    "target_crops": [
+      "树",
+      "竹",
+      "草"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "乙氧基改性聚三硅氧烷"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:50.553228+00:00"
+  },
+  {
+    "product_id": "AF0041",
+    "name_cn": "根线清(助剂)",
+    "name_en": "Root Nematode Clear (Adjuvant)",
+    "target_crops": [
+      "通用"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "氟离子水。对柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛等害虫有效"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:53.243444+00:00"
+  },
+  {
+    "product_id": "AF0042",
+    "name_cn": "万菌清",
+    "name_en": "Universal Fungus Clear (Microbial Agent)",
+    "target_crops": [
+      "玉米",
+      "水稻",
+      "小麦",
+      "甜菜",
+      "棉花",
+      "辣椒",
+      "西红柿",
+      "食油葵",
+      "打瓜",
+      "葫芦",
+      "马铃薯",
+      "油菜",
+      "香料",
+      "药材",
+      "林果类"
+    ],
+    "target_diseases": [
+      "真菌病害",
+      "细菌病害"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "有效活菌数≥30亿/ml"
+    ],
+    "symptoms_addressed": [
+      "生长缓慢",
+      "死棵",
+      "僵苗",
+      "黄苗",
+      "弱苗",
+      "烂根"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:55.657902+00:00"
+  },
+  {
+    "product_id": "AF0043",
+    "name_cn": "全虫净",
+    "name_en": "All Insect Clear (Synergist)",
+    "target_crops": [
+      "通用"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "百里香",
+      "氟离子水"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:58.143440+00:00"
+  },
+  {
+    "product_id": "AF0044",
+    "name_cn": "农用有机硅",
+    "name_en": "Agricultural Silicone (Organosilicone Adjuvant)",
+    "target_crops": [
+      "通用"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "乙氧基改性聚三硅氧烷"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:20:59.663034+00:00"
+  },
+  {
+    "product_id": "AF0045",
+    "name_cn": "葱壮壮",
+    "name_en": "Onion Strengthener (Water-Soluble Fertilizer)",
+    "target_crops": [
+      "果树类",
+      "大田作物",
+      "瓜果作物",
+      "番茄辣椒等蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥100g/L"
+    ],
+    "symptoms_addressed": [
+      "脱水",
+      "脱肥",
+      "早衰",
+      "僵苗",
+      "弱黄苗"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:02.272504+00:00"
+  },
+  {
+    "product_id": "AF0046",
+    "name_cn": "叶绿素120",
+    "name_en": "Chlorophyll 120 (Water-Soluble Fertilizer)",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶",
+      "玉米",
+      "水稻",
+      "小麦",
+      "大田",
+      "苗木"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：中量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "叶片浓绿肥厚",
+      "活力下降造成作物减产",
+      "早衰现象"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:05.441701+00:00"
+  },
+  {
+    "product_id": "AF0047",
+    "name_cn": "蛛螨克星(蜘蛛1号)",
+    "name_en": "Spider Mite Killer (Acaricide Synergist)",
+    "target_crops": [
+      "果树",
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "天然植物提取物"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:07.875776+00:00"
+  },
+  {
+    "product_id": "AF0048",
+    "name_cn": "除草灵(树竹草连根除)",
+    "name_en": "Herbicide Synergist (Tree-Bamboo-Grass Root Remover)",
+    "target_crops": [
+      "树",
+      "竹",
+      "草"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "乙氧基改性聚三硅氧烷"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:09.253410+00:00"
+  },
+  {
+    "product_id": "AF0049",
+    "name_cn": "液体硼",
+    "name_en": "Liquid Boron Fertilizer",
+    "target_crops": [
+      "棉花",
+      "油菜",
+      "小麦",
+      "花生",
+      "玉米",
+      "向日葵",
+      "苹果",
+      "柑橘",
+      "枣",
+      "梨",
+      "桃子",
+      "芒果",
+      "葡萄",
+      "西瓜",
+      "木瓜",
+      "哈密瓜",
+      "甜瓜",
+      "黄瓜",
+      "冬瓜",
+      "白菜",
+      "花椰菜",
+      "萝卜",
+      "芹菜",
+      "莴笋",
+      "番茄"
+    ],
+    "target_diseases": [
+      "花而不实",
+      "蕾而不花",
+      "实而不果",
+      "果而不良",
+      "花蕾脱落",
+      "落果裂果",
+      "果实畸形"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "技术指标：硼≥150g/L"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:12.738776+00:00"
+  },
+  {
+    "product_id": "AF0050",
+    "name_cn": "腐殖酸营养液",
+    "name_en": "Humic Acid Nutrient Solution",
+    "target_crops": [
+      "棉花",
+      "辣椒",
+      "西红柿",
+      "玉米",
+      "水稻",
+      "小麦",
+      "甜菜",
+      "食油葵",
+      "打瓜",
+      "葫芦",
+      "马铃薯",
+      "油菜",
+      "香料",
+      "药材",
+      "林果类"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "有效活菌数≥2亿/mL"
+    ],
+    "symptoms_addressed": [
+      "根系发达",
+      "壮苗",
+      "促进花芽分化",
+      "提高座果",
+      "提高着色率",
+      "营养均衡",
+      "增强作物抗逆能力"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:15.163336+00:00"
+  },
+  {
+    "product_id": "AF0051",
+    "name_cn": "钙镁硼锌铁",
+    "name_en": "Ca-Mg-B-Zn-Fe Micronutrient Fertilizer",
+    "target_crops": [
+      "棉花",
+      "辣椒",
+      "西红柿",
+      "玉米",
+      "水稻",
+      "小麦",
+      "甜菜",
+      "食油葵",
+      "打瓜",
+      "葫芦",
+      "马铃薯",
+      "油菜",
+      "香料",
+      "药材",
+      "林果类"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "主要技术指标：Ca≥145g/L Mg≥10g/L B≥3g/L Zn≥2g/L Fe≥3g/L"
+    ],
+    "symptoms_addressed": [
+      "缺乏"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:17.984197+00:00"
+  },
+  {
+    "product_id": "AF0052",
+    "name_cn": "水稻病害清",
+    "name_en": "Rice Disease Clear (Microbial Agent)",
+    "target_crops": [
+      "辣椒",
+      "水稻",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "真菌",
+      "细菌",
+      "病毒"
+    ],
+    "target_pests": [
+      "越冬害虫"
+    ],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "冻害",
+      "霜害",
+      "病害"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:21.425215+00:00"
+  },
+  {
+    "product_id": "AF0053",
+    "name_cn": "油菜病菌清",
+    "name_en": "Rapeseed Disease Clear (Microbial Agent)",
+    "target_crops": [
+      "辣椒",
+      "油菜",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "油菜病害"
+    ],
+    "target_pests": [
+      "越冬害虫"
+    ],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "冻害",
+      "霜害",
+      "病害"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:24.138055+00:00"
+  },
+  {
+    "product_id": "AF0054",
+    "name_cn": "家庭园艺免稀释营养液",
+    "name_en": "Home Garden Ready-to-Use Nutrient Solution",
+    "target_crops": [
+      "室内外绿植",
+      "花卉"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "大量元素"
+    ],
+    "symptoms_addressed": [
+      "生长缓慢",
+      "叶片黄化",
+      "产量降低"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:25.567783+00:00"
+  },
+  {
+    "product_id": "AF0055",
+    "name_cn": "大量元素复活液",
+    "name_en": "Plant Revival Nutrient Solution",
+    "target_crops": [
+      "家庭园艺室内及室外各类植物"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：大量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "脱水",
+      "脱肥",
+      "早衰",
+      "僵苗",
+      "弱黄苗"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:27.653381+00:00"
+  },
+  {
+    "product_id": "AF0056",
+    "name_cn": "病毒1号",
+    "name_en": "Virus No.1 (Biological Virus Inhibitor)",
+    "target_crops": [
+      "蔬菜",
+      "果树"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "中草药萃取物"
+    ],
+    "symptoms_addressed": [
+      "提高作物对各类病毒的免疫力",
+      "降低作物被感染病害的几率"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:29.048623+00:00"
+  },
+  {
+    "product_id": "AF0057",
+    "name_cn": "灰霉1号",
+    "name_en": "Gray Mold No.1 (Botrytis Control Agent)",
+    "target_crops": [
+      "草莓",
+      "蔬菜",
+      "花卉"
+    ],
+    "target_diseases": [
+      "灰霉",
+      "叶霉",
+      "菌核"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "中草药萃取物"
+    ],
+    "symptoms_addressed": [
+      "感染病害"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:30.760377+00:00"
+  },
+  {
+    "product_id": "AF0058",
+    "name_cn": "蚜虱1号",
+    "name_en": "Aphid & Whitefly No.1 (Synergist)",
+    "target_crops": [
+      "蔬菜",
+      "果树"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蚜虫",
+      "飞虱",
+      "粉虱",
+      "斑潜蝇",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "中草药萃取物"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:32.336727+00:00"
+  },
+  {
+    "product_id": "AF0059",
+    "name_cn": "大量元素一喷绿",
+    "name_en": "Macro-Element One Spray Green",
+    "target_crops": [
+      "果树类",
+      "瓜果作物",
+      "番茄",
+      "辣椒",
+      "蔬菜",
+      "棉花",
+      "大蒜",
+      "叶菜类",
+      "生姜",
+      "萝卜",
+      "烟草",
+      "花椒",
+      "马铃薯",
+      "红薯",
+      "药材",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "产品类型：大量元素水溶肥料"
+    ],
+    "symptoms_addressed": [
+      "脱水",
+      "脱肥",
+      "早衰",
+      "僵苗",
+      "弱苗",
+      "黄苗"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": true,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:35.424194+00:00"
+  },
+  {
+    "product_id": "AF0060",
+    "name_cn": "菌立清(30亿)",
+    "name_en": "Bacteria Clear (3 Billion CFU)",
+    "target_crops": [
+      "辣椒",
+      "蔬菜",
+      "果树",
+      "瓜果",
+      "大田",
+      "中药材",
+      "花卉",
+      "苗木",
+      "茶树"
+    ],
+    "target_diseases": [
+      "真菌病害",
+      "细菌病害"
+    ],
+    "target_pests": [
+      "越冬害虫"
+    ],
+    "active_ingredients": [
+      "枯草芽孢杆菌",
+      "侧孢短芽孢杆菌",
+      "地衣芽孢杆菌",
+      "胶冻样芽孢杆菌",
+      "解淀粉芽孢杆菌"
+    ],
+    "symptoms_addressed": [
+      "冻害",
+      "霜害"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": true,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:37.846370+00:00"
+  },
+  {
+    "product_id": "AF0061",
+    "name_cn": "菜虫杀",
+    "name_en": "Vegetable Pest Killer (Caichongsha)",
+    "target_crops": [
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蚜马",
+      "瓜蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "氟离子水。专用溶解剂。提高吸收利用率·增强药效。执行标准Q/460JXM 001-2025"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:40.406199+00:00"
+  },
+  {
+    "product_id": "AF0062",
+    "name_cn": "青虫净",
+    "name_en": "Green Caterpillar Clear (Qingchongjing)",
+    "target_crops": [
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "天然植物提取物"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:42.433224+00:00"
+  },
+  {
+    "product_id": "AF0063",
+    "name_cn": "青虫杀",
+    "name_en": "Green Caterpillar Killer (Qingchongsha)",
+    "target_crops": [
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蓟马",
+      "葱蓟马",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "氟离子水。专用溶解剂。提高吸收利用率·增强药效。执行标准Q/460JXM 001-2025"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:46.337554+00:00"
+  },
+  {
+    "product_id": "AF0064",
+    "name_cn": "蓟马1号",
+    "name_en": "Thrips No.1 (Jima 1 Hao)",
+    "target_crops": [
+      "果树",
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蓟马",
+      "稻飞虱"
+    ],
+    "active_ingredients": [
+      "肉桂醛≥5%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:47.673788+00:00"
+  },
+  {
+    "product_id": "AF0065",
+    "name_cn": "蓟马杀",
+    "name_en": "Thrips Killer (Jimasha)",
+    "target_crops": [
+      "果树",
+      "蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蓟马",
+      "柑橘红蜘蛛",
+      "草莓红蜘蛛",
+      "棉红蜘蛛",
+      "麦长腿蜘蛛",
+      "稻秆潜蝇",
+      "甘蓝蚜",
+      "菜蚜",
+      "棉蚜",
+      "瓜蚜",
+      "白粉虱",
+      "梨木虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "产品成分：植物精油",
+      "薄荷",
+      "冰片",
+      "薰衣草",
+      "氟离子水。专用溶解剂。提高吸收利用率·增强药效。执行标准Q/460JXM 001-2025"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": false,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:50.651237+00:00"
+  },
+  {
+    "product_id": "PN0001",
+    "name_cn": "苏云金杆菌4000IU/微升",
+    "name_en": "Bacillus thuringiensis (Bt) 4000IU/μL",
+    "target_crops": [
+      "茶树",
+      "棉花",
+      "森林",
+      "水稻",
+      "玉米",
+      "十字花科蔬菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "茶毛虫",
+      "棉铃虫",
+      "松毛虫",
+      "稻纵卷叶螟",
+      "玉米螟",
+      "菜青虫",
+      "小菜蛾"
+    ],
+    "active_ingredients": [
+      "苏云金杆菌 4000IU/微升"
+    ],
+    "symptoms_addressed": [
+      "停止取食",
+      "败血症",
+      "饥饿",
+      "感染死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:52.988040+00:00"
+  },
+  {
+    "product_id": "PN0002",
+    "name_cn": "吡唑醚菌酯-凯润",
+    "name_en": "Pyraclostrobin (Kairun)",
+    "target_crops": [
+      "小麦",
+      "水稻",
+      "玉米",
+      "大豆",
+      "花生",
+      "苹果",
+      "柑橘",
+      "黄瓜",
+      "番茄",
+      "白菜",
+      "大葱"
+    ],
+    "target_diseases": [
+      "白粉病",
+      "霜霉病",
+      "炭疽病",
+      "叶斑病",
+      "锈病",
+      "早晚疫病",
+      "稻瘟病",
+      "赤霉病",
+      "轮纹病",
+      "灰霉病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "吡唑醚菌酯250克/升"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:55.843375+00:00"
+  },
+  {
+    "product_id": "PN0003",
+    "name_cn": "乙基多杀菌素",
+    "name_en": "Spinetoram",
+    "target_crops": [
+      "甘蓝",
+      "白菜",
+      "番茄",
+      "豇豆",
+      "水稻",
+      "玉米",
+      "苹果",
+      "梨",
+      "葡萄"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "小菜蛾",
+      "甜菜夜蛾",
+      "斜纹夜蛾",
+      "豆荚螟",
+      "稻纵卷叶螟",
+      "二化螟",
+      "蓟马",
+      "美洲斑潜蝇",
+      "潜叶蝇"
+    ],
+    "active_ingredients": [
+      "乙基多杀菌素60克/升"
+    ],
+    "symptoms_addressed": [
+      "过度兴奋",
+      "麻痹",
+      "停止取食"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:21:59.506031+00:00"
+  },
+  {
+    "product_id": "PN0004",
+    "name_cn": "30%敌百虫",
+    "name_en": "30% Trichlorfon",
+    "target_crops": [
+      "甘蓝",
+      "水稻",
+      "小麦",
+      "棉花",
+      "桑树",
+      "黄瓜",
+      "番茄",
+      "西瓜",
+      "茄子",
+      "柑橘",
+      "荔枝"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "菜青虫",
+      "水稻螟虫",
+      "稻飞虱",
+      "棉铃虫",
+      "蚜虫",
+      "蛴螬",
+      "地老虎",
+      "蚊",
+      "蝇",
+      "蟑螂",
+      "虱",
+      "螨"
+    ],
+    "active_ingredients": [
+      "敌百虫 30%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:02.338471+00:00"
+  },
+  {
+    "product_id": "PN0005",
+    "name_cn": "29%杀虫双",
+    "name_en": "29% Bisultap",
+    "target_crops": [
+      "水稻",
+      "十字花科蔬菜",
+      "甘蔗",
+      "茶叶",
+      "玉米"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "二化螟",
+      "三化螟",
+      "稻纵卷叶螟",
+      "菜青虫",
+      "小菜蛾",
+      "柑橘潜叶蛾",
+      "蔗螟"
+    ],
+    "active_ingredients": [
+      "杀虫双29%"
+    ],
+    "symptoms_addressed": [
+      "迟钝",
+      "行动缓慢",
+      "虫体软化",
+      "瘫痪",
+      "死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:09.046835+00:00"
+  },
+  {
+    "product_id": "PN0006",
+    "name_cn": "1.8%阿维菌素",
+    "name_en": "1.8% Abamectin",
+    "target_crops": [
+      "十字花科蔬菜",
+      "水稻",
+      "小麦",
+      "棉花",
+      "茶叶",
+      "果树",
+      "蔬菜瓜果类"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "小菜蛾",
+      "甜菜夜蛾",
+      "稻纵卷叶螟",
+      "红蜘蛛",
+      "锈壁虱",
+      "茶黄螨",
+      "斑潜蝇",
+      "韭蛆",
+      "蚜虫",
+      "木虱",
+      "蓟马"
+    ],
+    "active_ingredients": [
+      "阿维菌素1.8%"
+    ],
+    "symptoms_addressed": [
+      "麻痹",
+      "拒食"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:11.793637+00:00"
+  },
+  {
+    "product_id": "PN0007",
+    "name_cn": "3%甲霜噁霉灵",
+    "name_en": "3% Metalaxyl-Hymexazol",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "玉米",
+      "黄瓜",
+      "甜瓜",
+      "番茄",
+      "辣椒",
+      "白菜",
+      "苹果",
+      "柑橘",
+      "草莓"
+    ],
+    "target_diseases": [
+      "立枯病",
+      "猝倒病",
+      "根腐病",
+      "枯萎病",
+      "霜霉病",
+      "疫病",
+      "黄萎病",
+      "大蒜根腐病",
+      "姜瘟病",
+      "大葱猝倒病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "噁霉灵2.5%",
+      "甲霜灵0.5%"
+    ],
+    "symptoms_addressed": [
+      "立枯",
+      "猝倒",
+      "根腐",
+      "枯萎",
+      "霜霉",
+      "疫病",
+      "黄萎"
+    ],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:14.576615+00:00"
+  },
+  {
+    "product_id": "PN0008",
+    "name_cn": "30%甲霜噁霉灵",
+    "name_en": "30% Metalaxyl-Hymexazol",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "玉米",
+      "黄瓜",
+      "甜瓜",
+      "番茄",
+      "辣椒",
+      "白菜",
+      "苹果",
+      "柑橘",
+      "草莓"
+    ],
+    "target_diseases": [
+      "立枯病",
+      "猝倒病",
+      "根腐病",
+      "枯萎病",
+      "霜霉病",
+      "疫病",
+      "黄萎病",
+      "大蒜根腐病",
+      "姜瘟病",
+      "大葱猝倒病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "噁霉灵25%",
+      "甲霜灵5%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:17.319127+00:00"
+  },
+  {
+    "product_id": "PN0009",
+    "name_cn": "3.2%甲维盐氯氰",
+    "name_en": "3.2% Emamectin Benzoate + Cypermethrin",
+    "target_crops": [
+      "甘蓝",
+      "白菜",
+      "番茄",
+      "茄子",
+      "西瓜",
+      "甜瓜",
+      "水稻",
+      "玉米",
+      "小麦",
+      "苹果",
+      "梨",
+      "桃",
+      "棉花",
+      "茶树"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "小菜蛾",
+      "甜菜夜蛾",
+      "棉铃虫",
+      "菜青虫",
+      "稻纵卷叶螟",
+      "玉米螟",
+      "蚜虫",
+      "盲蝽象",
+      "梨木虱",
+      "蓟马"
+    ],
+    "active_ingredients": [
+      "甲氨基阿维菌素苯甲酸盐0.2%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:20.696768+00:00"
+  },
+  {
+    "product_id": "PN0010",
+    "name_cn": "10%精草胺膦胺盐",
+    "name_en": "10% Glufosinate-P Ammonium",
+    "target_crops": [
+      "非耕地",
+      "柑橘",
+      "苹果",
+      "梨",
+      "葡萄",
+      "茶园",
+      "小麦",
+      "玉米",
+      "水稻",
+      "油菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "精草铵膦10%"
+    ],
+    "symptoms_addressed": [
+      "杂草死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:22.397446+00:00"
+  },
+  {
+    "product_id": "PN0011",
+    "name_cn": "高效氯氟氰菊酯2.5%",
+    "name_en": "2.5% Lambda-cyhalothrin",
+    "target_crops": [
+      "蔬菜作物",
+      "小麦",
+      "玉米",
+      "水稻",
+      "棉花",
+      "果树类"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "菜青虫",
+      "棉铃虫",
+      "玉米螟",
+      "金龟子",
+      "蛴螬",
+      "蚜虫",
+      "叶蝉",
+      "地老虎"
+    ],
+    "active_ingredients": [
+      "高效氯氟氰菊酯 2.5%"
+    ],
+    "symptoms_addressed": [
+      "兴奋",
+      "痉挛",
+      "麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:25.012636+00:00"
+  },
+  {
+    "product_id": "PN0012",
+    "name_cn": "虫螨腈虱螨脲",
+    "name_en": "Chlorfenapyr + Lufenuron",
+    "target_crops": [
+      "甘蓝",
+      "番茄",
+      "西瓜",
+      "西葫芦",
+      "水稻",
+      "玉米",
+      "花生",
+      "柑橘",
+      "苹果",
+      "桃树",
+      "葡萄",
+      "芒果",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "甜菜夜蛾",
+      "斜纹夜蛾",
+      "小菜蛾",
+      "稻纵卷叶螟"
+    ],
+    "active_ingredients": [
+      "虫螨腈虱螨脲 12%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:27.957030+00:00"
+  },
+  {
+    "product_id": "PN0013",
+    "name_cn": "24%联苯肼酯-美满橘园",
+    "name_en": "24% Bifenazate (Happy Citrus Garden)",
+    "target_crops": [
+      "果树类",
+      "蔬菜类",
+      "大田作物"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "红蜘蛛"
+    ],
+    "active_ingredients": [
+      "联苯肼酯24%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:29.538484+00:00"
+  },
+  {
+    "product_id": "PN0014",
+    "name_cn": "45%联肼·乙螨唑",
+    "name_en": "45% Bifenazate + Etoxazole",
+    "target_crops": [
+      "苹果",
+      "梨",
+      "桃",
+      "柑橘",
+      "番茄",
+      "茄子",
+      "辣椒",
+      "黄瓜",
+      "棉花",
+      "大豆"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "红蜘蛛",
+      "二斑叶螨",
+      "朱砂叶螨",
+      "全爪螨"
+    ],
+    "active_ingredients": [
+      "联苯肼酯30%",
+      "乙螨唑15%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:32.004113+00:00"
+  },
+  {
+    "product_id": "PN0015",
+    "name_cn": "24%烯草酮",
+    "name_en": "24% Clethodim",
+    "target_crops": [
+      "春大豆",
+      "棉花",
+      "花生",
+      "油菜",
+      "甜菜",
+      "阔叶蔬菜",
+      "果树",
+      "葱",
+      "姜",
+      "蒜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "烯草酮24%"
+    ],
+    "symptoms_addressed": [
+      "黄化",
+      "生长停滞",
+      "全株枯死"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:33.907659+00:00"
+  },
+  {
+    "product_id": "PN0016",
+    "name_cn": "50%草除灵",
+    "name_en": "50% Benazolin",
+    "target_crops": [
+      "甘蓝型冬油菜",
+      "小麦",
+      "大麦",
+      "苜蓿",
+      "亚麻"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "猪殃殃",
+      "繁缕",
+      "牛繁缕",
+      "荠菜",
+      "播娘蒿"
+    ],
+    "active_ingredients": [
+      "草除灵50%"
+    ],
+    "symptoms_addressed": [
+      "生长停滞",
+      "叶片黄化",
+      "枯死"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:35.607995+00:00"
+  },
+  {
+    "product_id": "PN0017",
+    "name_cn": "75%甲嘧磺隆",
+    "name_en": "75% Sulfometuron-methyl",
+    "target_crops": [
+      "非耕地"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "甲嘧磺隆75%"
+    ],
+    "symptoms_addressed": [
+      "茎叶失绿变紫红",
+      "全株坏死"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:37.221369+00:00"
+  },
+  {
+    "product_id": "PN0018",
+    "name_cn": "14-芸苔素",
+    "name_en": "14-Hydroxylated Brassinosteroid",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "玉米",
+      "柑橘",
+      "葡萄",
+      "草莓",
+      "梨",
+      "桃",
+      "番茄",
+      "辣椒",
+      "黄瓜",
+      "叶菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "14-羟基芸苔素甾醇0.01%"
+    ],
+    "symptoms_addressed": [
+      "僵苗",
+      "弱苗",
+      "生理落果"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:39.299381+00:00"
+  },
+  {
+    "product_id": "PN0019",
+    "name_cn": "24-芸苔素",
+    "name_en": "24-Epibrassinolide",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "玉米",
+      "柑橘",
+      "苹果",
+      "葡萄",
+      "草莓",
+      "西瓜",
+      "黄瓜",
+      "番茄",
+      "辣椒",
+      "茶叶",
+      "棉花"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "芸苔素内酯"
+    ],
+    "symptoms_addressed": [
+      "落花落果",
+      "幼苗徒长"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:41.558282+00:00"
+  },
+  {
+    "product_id": "PN0020",
+    "name_cn": "高效氟吡甲禾灵",
+    "name_en": "Haloxyfop-R-methyl",
+    "target_crops": [
+      "大豆",
+      "棉花",
+      "花生",
+      "油菜",
+      "甜菜",
+      "亚麻",
+      "烟草",
+      "向日葵",
+      "豌豆",
+      "茄子",
+      "辣椒",
+      "甘蓝",
+      "胡萝卜",
+      "白菜",
+      "马铃薯",
+      "西瓜",
+      "黄瓜",
+      "南瓜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "高效氟吡甲禾灵108克/升"
+    ],
+    "symptoms_addressed": [
+      "杂草分生组织坏死",
+      "全株枯死"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:44.651274+00:00"
+  },
+  {
+    "product_id": "PN0021",
+    "name_cn": "18%柠檬烯",
+    "name_en": "18% D-Limonene",
+    "target_crops": [
+      "柑橘",
+      "番茄",
+      "烟草",
+      "黄瓜",
+      "草莓"
+    ],
+    "target_diseases": [
+      "白粉病",
+      "炭疽病",
+      "灰霉病"
+    ],
+    "target_pests": [
+      "红蜘蛛",
+      "粉虱",
+      "蚜虫",
+      "木虱",
+      "蚧壳虫"
+    ],
+    "active_ingredients": [
+      "柠檬烯 18%"
+    ],
+    "symptoms_addressed": [
+      "失水死亡",
+      "脱水干燥"
+    ],
+    "has_diseases": true,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:46.810288+00:00"
+  },
+  {
+    "product_id": "PN0022",
+    "name_cn": "氨氯砒啶酸",
+    "name_en": "Aminopyralid",
+    "target_crops": [
+      "小麦",
+      "大麦",
+      "玉米",
+      "茶树",
+      "林木"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "刺儿菜",
+      "苣荬菜",
+      "田旋花",
+      "蓼",
+      "藜",
+      "苍耳",
+      "榆树",
+      "杨树",
+      "柳树",
+      "胡枝子"
+    ],
+    "active_ingredients": [
+      "氨氯砒啶酸21%"
+    ],
+    "symptoms_addressed": [
+      "生长畸形",
+      "组织坏死"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:53.994804+00:00"
+  },
+  {
+    "product_id": "PN0023",
+    "name_cn": "乙羧氟草醚",
+    "name_en": "Oxyfluorfen",
+    "target_crops": [
+      "春大豆田",
+      "花生",
+      "小麦"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "乙羧氟草醚10%"
+    ],
+    "symptoms_addressed": [
+      "失绿",
+      "枯斑",
+      "快速枯萎"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:55.434237+00:00"
+  },
+  {
+    "product_id": "PN0024",
+    "name_cn": "5%吡虫啉",
+    "name_en": "5% Imidacloprid",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "棉花",
+      "蔬菜",
+      "果树",
+      "花卉"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "飞虱"
+    ],
+    "active_ingredients": [
+      "吡虫啉5%"
+    ],
+    "symptoms_addressed": [
+      "麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:57.151465+00:00"
+  },
+  {
+    "product_id": "PN0025",
+    "name_cn": "10%吡虫啉",
+    "name_en": "10% Imidacloprid",
+    "target_crops": [
+      "水稻",
+      "小麦",
+      "棉花",
+      "蔬菜",
+      "果树",
+      "花卉"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "稻虱",
+      "蚜虫"
+    ],
+    "active_ingredients": [
+      "吡虫啉10%"
+    ],
+    "symptoms_addressed": [
+      "害虫麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:22:58.684460+00:00"
+  },
+  {
+    "product_id": "PN0026",
+    "name_cn": "75%吡虫啉",
+    "name_en": "75% Imidacloprid",
+    "target_crops": [
+      "甘蓝",
+      "小麦",
+      "茶树",
+      "棉花",
+      "水稻"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蚜虫",
+      "茶小绿叶蝉",
+      "飞虱"
+    ],
+    "active_ingredients": [
+      "吡虫啉70%"
+    ],
+    "symptoms_addressed": [
+      "麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:00.378475+00:00"
+  },
+  {
+    "product_id": "PN0027",
+    "name_cn": "阿维菌素甲酸盐",
+    "name_en": "Emamectin Benzoate",
+    "target_crops": [
+      "蔬菜瓜果类",
+      "果树类",
+      "大田作物类"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "甜菜夜蛾"
+    ],
+    "active_ingredients": [
+      "甲氨基阿维菌素苯甲酸盐5.7%"
+    ],
+    "symptoms_addressed": [
+      "麻痹",
+      "拒食"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:02.077239+00:00"
+  },
+  {
+    "product_id": "PN0028",
+    "name_cn": "10%啶虫脒",
+    "name_en": "10% Acetamiprid",
+    "target_crops": [
+      "棉花",
+      "蔬菜瓜果类",
+      "果树类",
+      "水稻",
+      "小麦",
+      "茶叶",
+      "烟草",
+      "花生"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蚜虫",
+      "白粉虱",
+      "烟粉虱",
+      "蓟马",
+      "叶蝉",
+      "稻飞虱",
+      "木虱",
+      "盲蝽",
+      "小菜蛾",
+      "潜叶蛾",
+      "天牛幼虫"
+    ],
+    "active_ingredients": [
+      "啶虫脒10%"
+    ],
+    "symptoms_addressed": [
+      "麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:05.140744+00:00"
+  },
+  {
+    "product_id": "PN0029",
+    "name_cn": "6%春雷霉素",
+    "name_en": "6% Kasugamycin",
+    "target_crops": [
+      "水稻",
+      "烟草",
+      "黄瓜",
+      "番茄",
+      "西瓜",
+      "辣椒",
+      "柑橘",
+      "荔枝"
+    ],
+    "target_diseases": [
+      "稻瘟病",
+      "黄瓜细菌性角斑病",
+      "柑橘溃疡病",
+      "辣椒疮痂病",
+      "桃树穿孔病",
+      "水稻细条病",
+      "番茄叶霉病",
+      "马铃薯黑胫病",
+      "黄瓜枯萎病",
+      "炭疽病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "春雷霉素6%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:07.625929+00:00"
+  },
+  {
+    "product_id": "PN0030",
+    "name_cn": "3%辛硫磷",
+    "name_en": "3% Phoxim",
+    "target_crops": [
+      "小麦",
+      "玉米",
+      "水稻",
+      "棉花",
+      "花生",
+      "苹果",
+      "桃树",
+      "蔬菜作物"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蛴螬",
+      "蝼蛄",
+      "金针虫",
+      "地老虎"
+    ],
+    "active_ingredients": [
+      "辛硫磷3%"
+    ],
+    "symptoms_addressed": [
+      "痉挛",
+      "麻痹死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:09.967045+00:00"
+  },
+  {
+    "product_id": "PN0031",
+    "name_cn": "6%四聚乙醛",
+    "name_en": "6% Metaldehyde",
+    "target_crops": [
+      "水稻",
+      "蔬菜类",
+      "果树类",
+      "经济作物"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "蜗牛",
+      "蛞蝓",
+      "细钻螺",
+      "福寿螺",
+      "钉螺"
+    ],
+    "active_ingredients": [
+      "四聚乙醛6%"
+    ],
+    "symptoms_addressed": [
+      "神经麻痹",
+      "大量脱水",
+      "快速死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:11.710234+00:00"
+  },
+  {
+    "product_id": "PN0032",
+    "name_cn": "5%环嗪酮",
+    "name_en": "5% Hexazinone",
+    "target_crops": [
+      "森林防火道",
+      "非耕地",
+      "果园",
+      "茶园",
+      "林地"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "环嗪酮5%"
+    ],
+    "symptoms_addressed": [
+      "代谢紊乱",
+      "无法合成养分",
+      "连根死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:13.245942+00:00"
+  },
+  {
+    "product_id": "PN0033",
+    "name_cn": "18%吡虫·噻嗪酮",
+    "name_en": "18% Imidacloprid + Buprofezin",
+    "target_crops": [
+      "水稻",
+      "蔬菜",
+      "果树",
+      "花卉",
+      "葱姜蒜"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "介壳虫",
+      "蚜虫",
+      "粉虱",
+      "木虱",
+      "飞虱",
+      "叶蝉"
+    ],
+    "active_ingredients": [
+      "吡虫啉2%",
+      "噻嗪酮16%"
+    ],
+    "symptoms_addressed": [
+      "畸形死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:15.764168+00:00"
+  },
+  {
+    "product_id": "PN0034",
+    "name_cn": "1.8%辛菌胺醋酸盐",
+    "name_en": "1.8% Xingjunamine Acetate",
+    "target_crops": [
+      "苹果树",
+      "果树类",
+      "蔬菜类",
+      "大田作物"
+    ],
+    "target_diseases": [
+      "果锈病",
+      "腐烂病",
+      "霜霉病",
+      "白粉病",
+      "炭疽病",
+      "叶斑病",
+      "软腐病",
+      "溃疡病",
+      "角斑病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "辛菌胺1.26%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:17.814494+00:00"
+  },
+  {
+    "product_id": "PN0035",
+    "name_cn": "草甘膦铵盐33%",
+    "name_en": "33% Glyphosate Ammonium Salt",
+    "target_crops": [
+      "果园",
+      "茶园",
+      "桑园",
+      "玉米",
+      "棉花",
+      "大豆"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "草甘膦30%"
+    ],
+    "symptoms_addressed": [
+      "杂草全株死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:19.414214+00:00"
+  },
+  {
+    "product_id": "PN0036",
+    "name_cn": "10%精草铵膦铵盐",
+    "name_en": "10% Glufosinate-P Ammonium",
+    "target_crops": [
+      "非耕地",
+      "果园",
+      "茶园",
+      "小麦",
+      "玉米",
+      "水稻",
+      "油菜"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "精草铵膦10%"
+    ],
+    "symptoms_addressed": [
+      "杂草死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:20.913822+00:00"
+  },
+  {
+    "product_id": "PN0037",
+    "name_cn": "12%虫螨腈·虱螨脲",
+    "name_en": "12% Chlorfenapyr + Lufenuron",
+    "target_crops": [
+      "甘蓝",
+      "番茄",
+      "西瓜",
+      "西葫芦",
+      "水稻",
+      "玉米",
+      "花生",
+      "柑橘",
+      "苹果",
+      "桃树",
+      "葡萄",
+      "芒果",
+      "茶叶"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "甜菜夜蛾",
+      "斜纹夜蛾",
+      "小菜蛾",
+      "稻纵卷叶螟"
+    ],
+    "active_ingredients": [
+      "虫螨腈·虱螨脲 12%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:23.368219+00:00"
+  },
+  {
+    "product_id": "PN0039",
+    "name_cn": "50g/L双氟磺草胺",
+    "name_en": "Florasulam 50g/L SC",
+    "target_crops": [
+      "小麦"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "双氟磺草胺50克/升"
+    ],
+    "symptoms_addressed": [
+      "敏感杂草死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:24.803622+00:00"
+  },
+  {
+    "product_id": "PN0040",
+    "name_cn": "30%噻虫嗪",
+    "name_en": "30% Thiamethoxam SC",
+    "target_crops": [
+      "水稻",
+      "蔬菜",
+      "花卉"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "飞虱"
+    ],
+    "active_ingredients": [
+      "噻虫嗪30%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:27.751148+00:00"
+  },
+  {
+    "product_id": "PN0041",
+    "name_cn": "22%噻虫高氯氟",
+    "name_en": "22% Thiamethoxam + Lambda-cyhalothrin ZC",
+    "target_crops": [
+      "茶树",
+      "小麦",
+      "蔬菜",
+      "果树"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "茶小绿叶蝉",
+      "蚜虫"
+    ],
+    "active_ingredients": [
+      "高效氯氟氰菊酯9.4%噻虫嗪12.6%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:29.906968+00:00"
+  },
+  {
+    "product_id": "PN0042",
+    "name_cn": "50%多菌灵",
+    "name_en": "50% Carbendazim WP",
+    "target_crops": [
+      "蔬菜",
+      "果树",
+      "小麦",
+      "水稻"
+    ],
+    "target_diseases": [
+      "赤霉病",
+      "稻瘟病"
+    ],
+    "target_pests": [],
+    "active_ingredients": [
+      "多菌灵50%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": true,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:31.259982+00:00"
+  },
+  {
+    "product_id": "PN0043",
+    "name_cn": "200g/L敌草快",
+    "name_en": "200g/L Diquat AS",
+    "target_crops": [
+      "果园",
+      "非耕地"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "敌草快200克/升"
+    ],
+    "symptoms_addressed": [
+      "杂草迅速枯死"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:32.568220+00:00"
+  },
+  {
+    "product_id": "PN0044",
+    "name_cn": "10%苯磺隆",
+    "name_en": "10% Tribenuron-methyl WP",
+    "target_crops": [
+      "小麦"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "苯磺隆10%"
+    ],
+    "symptoms_addressed": [
+      "停止生长",
+      "死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:33.986499+00:00"
+  },
+  {
+    "product_id": "PN0045",
+    "name_cn": "30%草甘膦异丙铵盐",
+    "name_en": "30% Glyphosate Isopropylamine Salt AS",
+    "target_crops": [
+      "非耕地",
+      "果园"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "草甘膦异丙铵盐 30%"
+    ],
+    "symptoms_addressed": [
+      "杂草死亡"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:35.391666+00:00"
+  },
+  {
+    "product_id": "PN0046",
+    "name_cn": "10%草铵膦",
+    "name_en": "10% Glufosinate-ammonium AS",
+    "target_crops": [
+      "果园",
+      "非耕地"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "草铵膦 10%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:36.497860+00:00"
+  },
+  {
+    "product_id": "PN0047",
+    "name_cn": "69g/L精噁唑禾草灵",
+    "name_en": "69g/L Fenoxaprop-P-ethyl EW",
+    "target_crops": [
+      "小麦"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "精噁唑禾草灵69克/升"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:37.944206+00:00"
+  },
+  {
+    "product_id": "PN0048",
+    "name_cn": "56%2甲4氯钠",
+    "name_en": "56% MCPA-Sodium SP",
+    "target_crops": [
+      "小麦",
+      "水稻",
+      "玉米"
+    ],
+    "target_diseases": [],
+    "target_pests": [],
+    "active_ingredients": [
+      "2甲4氯钠56%"
+    ],
+    "symptoms_addressed": [
+      "畸形生长",
+      "枯死"
+    ],
+    "has_diseases": false,
+    "has_pests": false,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:39.581671+00:00"
+  },
+  {
+    "product_id": "PN0049",
+    "name_cn": "10%吡虫啉(帮赛克)",
+    "name_en": "10% Imidacloprid WP (Bangsaike)",
+    "target_crops": [
+      "水稻"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "稻飞虱"
+    ],
+    "active_ingredients": [
+      "吡虫啉10%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:40.990927+00:00"
+  },
+  {
+    "product_id": "PN0050",
+    "name_cn": "10%吡虫啉(打飞1号)",
+    "name_en": "10% Imidacloprid WP (Dafei No.1)",
+    "target_crops": [
+      "水稻",
+      "小麦"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "飞虱",
+      "蚜虫"
+    ],
+    "active_ingredients": [
+      "吡虫啉10%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:42.566361+00:00"
+  },
+  {
+    "product_id": "PN0051",
+    "name_cn": "10%高效氯氟氰菊酯",
+    "name_en": "10% Lambda-cyhalothrin EW",
+    "target_crops": [
+      "蔬菜",
+      "棉花",
+      "果树"
+    ],
+    "target_diseases": [],
+    "target_pests": [
+      "菜青虫"
+    ],
+    "active_ingredients": [
+      "高效氯氟氰菊酯10%"
+    ],
+    "symptoms_addressed": [],
+    "has_diseases": false,
+    "has_pests": true,
+    "has_ingredients": true,
+    "is_pesticide": true,
+    "is_microbial": false,
+    "is_fertilizer": false,
+    "data_quality": "clean",
+    "extraction_confidence": 1.0,
+    "pipeline_version": "v3",
+    "extracted_at": "2026-06-14T15:23:44.285735+00:00"
+  }
+]
