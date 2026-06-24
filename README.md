@@ -161,4 +161,4 @@ Products AF0014, AF0017, AF0026, AF0029, AF0030, and AF0035 have blank ingredien
 The source catalog did not include usage method or dosage for these products. Affected IDs are documented in `quality/audit_report.json`.
 
 **Multimodal support is disabled**
-`config.yaml` includes image collection and ViT-B/32 settings, but `agent.multimodal.enabled` is set to `false`. The `agromind_images_v4` collection is defined in config but not yet implemented in the retriever.
+`config.yaml` includes image collection and ViT-B/32 settings, but `agent.multimodal.enabled` is set to `false`. The `agromind_images_v4` collection is defined in `config.yaml`, but the image data lives in the separate `agromind-rag` repository and has not yet been integrated into this retriever.

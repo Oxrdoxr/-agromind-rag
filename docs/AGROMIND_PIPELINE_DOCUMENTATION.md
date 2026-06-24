@@ -91,7 +91,7 @@ These conversations are indexed in ChromaDB as the `agromind_full_v4` (support) 
 
 ### Plant Disease Images
 
-`data/plantvillage_unlabeled/class_1/` contains unlabeled JPG images from the PlantVillage dataset. These are referenced by config for a future image retrieval collection (`agromind_images_v4`). Image retrieval is not yet implemented in the active retriever.
+`data/plantvillage_unlabeled/class_1/` contains unlabeled JPG images from the PlantVillage dataset. These are referenced by config for a future image retrieval collection (`agromind_images_v4`). The image dataset used for `agromind_images_v4` is maintained in the separate `agromind-rag` repository; integration into the active retriever is pending.
 
 ---
 
